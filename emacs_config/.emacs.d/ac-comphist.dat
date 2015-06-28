@@ -1,0 +1,136 @@
+((("/Users/user/.oh-my-zsh" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Admin::AdminController" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("extractEntities" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 1])
+  ("XmlUtil" .
+   [0 0 0 0 0 0 2])
+  ("grep-find-ignored-directories" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("grep-find" .
+   [0 0 0 0 0 0 0 0 1])
+  ("type-of" .
+   [0 0 0 0 0 0 1])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("projectile-grep-default-files" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("projectile-grep" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("help_path" .
+   [0 0 0 0 0 0 0 0 1])
+  ("page_title" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("scss-mode" .
+   [0 0 0 0 2 0 0 0 0])
+  ("scss-compile-at-save" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("div" .
+   [0 0 1])
+  ("h1" .
+   [0 1])
+  ("spec_helper" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("spec" .
+   [0 0 1 0])
+  ("title" .
+   [0 0 0 1 0])
+  ("home" .
+   [0 0 0 1])
+  ("have_content" .
+   [0 0 0 0 0 0 0 0 0 0 0 2])
+  ("content" .
+   [0 0 0 1 0 0 0])
+  ("should" .
+   [0 0 0 0 0 2])
+  ("save" .
+   [1 0 0 0])
+  ("ruby-mode-map" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("ruby-mode" .
+   [1 0 0 0 0 0 0 1 0])
+  ("ruby" .
+   [0 0 0 1])
+  ("setq-local" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("robe-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("static_pages" .
+   [0 0 0 0 0 0 0 0 0 0 0 4])
+  ("html" .
+   [0 0 0 1])
+  ("require" .
+   [0 0 0 0 0 0 4])
+  ("expand_path" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("config" .
+   [0 0 0 0 0 2])
+  ("environment" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("rspec" .
+   [1 0 0 0 1])
+  ("rails" .
+   [0 0 0 0 1])
+  ("autorun" .
+   [0 0 0 0 1 0 0])
+  ("support" .
+   [0 0 0 0 0 0 1])
+  ("each_run" .
+   [0 0 0 0 0 0 0 1])
+  ("RSpec" .
+   [0 0 0 0 1])
+  ("configure" .
+   [0 0 0 0 0 0 0 0 1])
+  ("mock_with" .
+   [0 0 0 0 1 0 0 0 0])
+  ("fixture_path" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("fixtures" .
+   [0 0 1 0 0 0 0 0])
+  ("use_transactional_fixtures" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("true" .
+   [0 0 0 1])
+  ("infer_base_class_for_anonymous_controllers" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("overflow" .
+   [0 0 0 0 1 0 0 1])
+  ("resize" .
+   [0 0 0 0 0 1])
+  ("vertical" .
+   [0 0 0 0 0 0 0 1])
+  ("textarea" .
+   [0 0 0 0 0 0 0 1])
+  ("center" .
+   [0 0 0 0 1 1])
+  ("margin" .
+   [0 0 0 0 0 1])
+  ("margin-bottom" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq-default" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("StaticPages" .
+   [0 0 0 0 0 0 2 0 0 0 0])
+  ("have_selector" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("contact" .
+   [0 0 0 0 1 0 0])
+  ("logger" .
+   [1 0 0 0 0 0])
+  ("projectile-ignored-directories" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0])
+  ("projectile-global" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("projectile-globally-ignored-directories" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("projectile-expand-root" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("reveal" .
+   [0 0 0 0 0 1])
+  ("revert-" .
+   [0 0 0 0 0 0 1])
+  ("revert-buffer-function" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("tool-bar-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])))
