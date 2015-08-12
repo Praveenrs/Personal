@@ -2,6 +2,15 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/user/Freshdesk/helpkit/lib/va/" . "event_handlers/")
+ ("/Users/user/Freshdesk/helpkit/lib/integration_services/services/" . "github/")
+ ("/Users/user/Freshdesk/helpkit/lib/integration_services/" . "services/")
+ ("/Users/user/development/aha-services/lib/services/" . "github/")
+ ("/Users/user/development/aha-services/lib/" . "services/")
+ ("/Users/user/development/aha-services/" . "lib/")
+ ("/Users/user/Freshdesk/helpkit/spec/controllers/" . "integrations/")
+ ("/Users/user/Freshdesk/helpkit/app/models/" . "account/")
+ ("/Users/user/Freshdesk/helpkit/lib/helpdesk/" . "initializers/")
  ("/Users/user/Freshdesk/helpkit/app/controllers/" . "integrations/")
  ("/Users/user/Freshdesk/helpkit/lib/workers/" . "community/")
  ("/Users/user/Freshdesk/remote-integrations/" . "wordpress/")
@@ -13,7 +22,7 @@
  ("/xampp/" . "htdocs/")
  ("/" . "xampp/")
  ("/Users/user/Freshdesk/helpkit/lib/integrations/" . "github_api/")
- ("/Users/user/Freshdesk/helpkit/lib/" . "mailbox/")
+ ("/Users/user/Freshdesk/helpkit/lib/" . "va/")
  ("/Users/user/Freshdesk/helpkit/integrations/wordpress/" . "css/")
  ("/Users/user/Freshdesk/helpkit/integrations/" . "wordpress/")
  ("/Users/user/Freshdesk/helpkit/spec/" . "support/")
@@ -25,7 +34,7 @@
  ("/Users/user/Freshdesk/helpkit/app/" . "helpers/")
  ("/Users/user/htdocs/" . "wordpress/")
  ("/Users/user/Freshdesk/hipchat/config/" . "initializers/")
- ("/Users/user/Freshdesk/helpkit/" . "lib/")
+ ("/Users/user/Freshdesk/helpkit/" . "config/")
  ("/Users/user/Freshdesk/hipchat/app/" . "controllers/")
  ("/Users/user/Freshdesk/hipchat/" . "app/")
  ("/Users/user/Freshdesk/" . "remote-integrations/")
@@ -66,10 +75,10 @@
  ("/Users/user/rail-projects/sample_app/lib/" . "tasks/")
  ("/Users/user/rail-projects/sample_app/config/" . "initializers/")
  ("/Users/user/rail-projects/sample_app/db/" . "migrate/")
- ("/Users/user/.emacs.d/elpa/" . "auto-complete-20150322.813/")
+ ("/Users/user/.emacs.d/elpa/" . "web-mode-20150709.1434/")
  ("/Users/user/.emacs.d/" . "elpa/")
  ("/Users/user/rail-projects/sample_app/" . "lib/")
- ("/Users/user/" . ".ssh/")
+ ("/Users/user/" . ".emacs.d/")
  ("/Users/user/rail-projects/sample_app/app/" . "views/")
  ("/Users/user/rail-projects/sample_app/app/views/" . "layouts/")
  ("/Users/user/rail-projects/sample_app/spec/" . "models/")
@@ -77,77 +86,227 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/user/.ssh/"
+ "/Users/user/Freshdesk/helpkit/lib/integration_services/"
+ "/Users/user/Freshdesk/helpkit/lib/integration_services/services/"
+ "/etc/apache2/"
+ "/Users/user/Freshdesk/helpkit/app/models/account/"
+ "/Users/user/Freshdesk/helpkit/app/models/"
+ "/Users/user/Freshdesk/helpkit/app/models/integrations/"
+ "/Users/user/Freshdesk/helpkit/db/"
+ "/Users/user/Freshdesk/helpkit/config/"
+ "/Users/user/Freshdesk/helpkit/"
+ "/Users/user/Freshdesk/helpkit/lib/integration_services/services/github/"
+ "/Users/user/.emacs.d/"
+ "/Users/user/"
+ "/Users/user/Freshdesk/helpkit/lib/auth/"
+ "/Users/user/Freshdesk/helpkit/lib/va/event_handlers/"
+ "/Users/user/Freshdesk/helpkit/lib/va/"
+ "/Users/user/Freshdesk/helpkit/app/views/integrations/applications/"
  "/Users/user/Freshdesk/helpkit/lib/integrations/github_api/"
- "/Users/user/Freshdesk/helpkit/config/locales/"
- "/Users/user/Freshdesk/helpkit/public/javascripts/"
  "/Users/user/Freshdesk/helpkit/lib/integrations/"
+ "/Users/user/Freshdesk/helpkit/app/controllers/"
+ "/Users/user/Freshdesk/helpkit/lib/helpdesk/initializers/"
+ "/Users/user/Freshdesk/helpkit/lib/workers/integrations/"
+ "/Users/user/development/aha-services/lib/services/github/"
+ "/Users/user/Freshdesk/helpkit/spec/controllers/integrations/"
+ "/Users/user/Freshdesk/helpkit/spec/"
  "/Users/user/Freshdesk/helpkit/app/controllers/integrations/"
+ "/Users/user/Freshdesk/helpkit/app/controllers/admin/"
+ "/Users/user/Freshdesk/helpkit/app/models/helpdesk/note/"
+ "/Users/user/Freshdesk/helpkit/app/models/helpdesk/"
+ "/Users/user/Freshdesk/helpkit/app/helpers/"
+ "/Users/user/Freshdesk/helpkit/lib/import/"
+ "/Users/user/.emacs.d/elpa/web-mode-20150709.1434/"
+ "/Users/user/Freshdesk/helpkit/config/locales/"
+ "/Users/user/.ssh/"
+ "/Users/user/Freshdesk/helpkit/public/javascripts/"
  "/Users/user/Freshdesk/helpkit/lib/integrations/jira/"
  "/Users/user/Freshdesk/helpkit/lib/integrations/quickbooks/"
  "/Users/user/Freshdesk/helpkit/lib/mailbox/"
- "/Users/user/Freshdesk/helpkit/"
- "/Users/user/Freshdesk/helpkit/app/models/integrations/"
  "/Users/user/Freshdesk/helpkit/lib/workers/"
  "/Users/user/Freshdesk/helpkit/lib/workers/community/"
- "/Users/user/.emacs.d/"
- "/Users/user/"
  "/Users/user/Freshdesk/remote-integrations/wordpress/"
  "/Users/user/Freshdesk/helpkit/lib/integrations/dynamics_crm/"
  "/Users/user/Freshdesk/helpkit/app/views/helpdesk/tickets/show/"
- "/Users/user/Freshdesk/helpkit/config/"
- "/Users/user/Freshdesk/helpkit/app/views/integrations/applications/"
  "/Users/user/Documents/"
  "/Users/user/.rvm/gems/ruby-2.1.5@rails3/gems/ruby-saml-0.9/lib/onelogin/ruby-saml/"
  "/Users/user/Freshdesk/helpkit/app/views/integrations/applications/dynamics_crm/"
  "/Users/user/Freshdesk/hipchat/app/controllers/"
- "/Users/user/Freshdesk/helpkit/app/controllers/"
  "/Users/user/.zprezto/modules/ruby/"
  "/Users/user/.zprezto/modules/git/"
  "/Users/user/.zprezto/modules/git/functions/"
  "/Users/user/.zprezto/modules/prompt/functions/"
- "/Users/user/.zprezto/modules/ruby/functions/"
- "/Users/user/Freshdesk/helpkit/config/environments/"
- "/xampp/htdocs/whmcs/"
- "/Users/user/Freshdesk/helpkit/public/src/settings/"
- "/Users/user/Freshdesk/helpkit/public/src/app/"
- "/Users/user/Freshdesk/helpkit/spec/support/"
- "/Users/user/Freshdesk/helpkit/spec/"
- "/Users/user/Freshdesk/helpkit/spec/controllers/"
- "/Users/user/.emacs.d/elpa/php-mode-1.15.3/"
- "/Users/user/.emacs.d/elpa/"
- "/Users/user/Freshdesk/helpkit/integrations/wordpress/"
- "/Users/user/Freshdesk/helpkit/spec/controllers/integrations/"
- "/Users/user/Freshdesk/helpkit/db/"
- "/etc/apache2/extra/"
- "/etc/apache2/"
- "/Users/user/Freshdesk/hipchat/"
- "/Users/user/htdocs/wordpress/wp-content/plugins/freshdesk-support/js/"
- "/Users/user/htdocs/wordpress/wp-content/plugins/freshdesk-support/"
- "/Users/user/htdocs/wordpress/"
- "/Users/user/Freshdesk/helpkit/app/models/"
- "/Users/user/htdocs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "config"
- "github_repositories.rb"
- "github_utils.rb"
- "github_organizations.rb"
- "github_issues.rb"
- "en.yml"
- "custom_widget.js"
- "github_api.rb"
- "installed_applications_controller.rb"
- "utils.rb"
+ "service.rb"
+ "github_service.rb"
+ "httpd.conf"
+ "associations.rb"
+ "account.rb"
+ "installed_application.rb"
+ "app_business_rule.rb"
+ "va_rule.rb"
+ "schema.rb"
+ "database.yml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/user/.ssh/" (21903 39971 0 0) "known_hosts" "id_rsa_personal.pub" "id_rsa_personal" "id_rsa.pub" "id_rsa" "config" "../" "./")
+ ("/Users/user/Freshdesk/helpkit/lib/integration_services/" (21963 12510 0 0) "services/" "service.rb" "schema.rb" "networking.rb" "generic_resource.rb" "errors.rb" ".#networking.rb" "#service.rb#" "#networking.rb#" "../" "./")
 
- ("/Users/user/" (21903 41003 0 0) "workspace/" "VirtualBox VMs/" "usefulcommands.txt~" "usefulcommands.txt" "tmux-session" "test.h2.db" "test/" "Study/" "server.orig.key" "server.key" "server.csr" "server.crt" "Saml.txt" "saml.diff" "rspec_result.txt~" "rspec_result.txt" "Public/" "Pictures/" "node_modules/" "Music/" "Movies/" "lifttest/" "liftapp/" "Library/" "keys/" "htdocs/" "Freshdesk/" "elasticsearch-1.5.2/" "dump.rdb" "Downloads/" "Documents/" "diff.txt" "development/" "Desktop/" "cacert.pm" "bin/" "Applications/" "a.txt" ".zshrc~" ".zshrc.omz-uninstalled-20150521191844" ".zshrc.bak" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history.bak" ".zsh_history" ".zsh-update" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump-Shreyas'MAC-5.0.5" ".zcompdump" ".zcompcache/" ".Xauthority" ".viminfo" ".Trash/" ".tmux.conf" ".tmux-session" ".subversion/" ".ssl/" ".ssh/" ".scala_history" ".sbt/" ".Saml.txt.swp" ".rvm/" ".rnd" ".pry_history" ".profile" ".ovftool.ssldb" ".npm/" ".node-gyp/" ".ngrok" ".netrc~" ".netrc" ".mkshrc" ".local/" ".lesshst" ".jrebel/" ".ivy2/" ".irb-history" ".heroku/" ".h2.server.properties" ".gitignore~" ".gitignore" ".gitconfig~" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc~" ".bashrc" ".bash_profile" ".bash_history" "#.emacs#" "#.bashrc#" "../" "./")
+ ("/Users/user/Freshdesk/helpkit/lib/integration_services/services/" (21963 7885 0 0) "github_service.rb" "github/" "../" "./")
+
+ ("/etc/apache2/extra/" (21960 18304 0 0) "proxy-html.conf" "httpd-vhosts.conf~" "httpd-vhosts.conf" "httpd-userdir.conf" "httpd-ssl.conf~orig" "httpd-ssl.conf" "httpd-multilang-errordoc.conf" "httpd-mpm.conf" "httpd-manual.conf" "httpd-languages.conf" "httpd-info.conf" "httpd-default.conf" "httpd-dav.conf" "httpd-autoindex.conf" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/models/" (21952 23732 0 0) "whitelisted_ip.rb" "whitelist_user.rb" "wf/" "va_rule.rb" "user_session.rb" "user_email.rb" "user.rb" "user/" "topic.rb" "topic/" "ticket_topic.rb" "ticket_form_field.rb" "survey_result.rb" "survey_remark.rb" "survey_handle.rb" "survey.rb" "support_score.rb" "subscription_plan.rb" "subscription_payment.rb" "subscription_event.rb" "subscription_announcement.rb" "subscription_affiliate.rb" "subscription_address.rb" "subscription.rb" "subscription/" "sqs_post.rb" "spam_digest_mailer.rb" "solution/" "social/" "smtp_mailbox.rb" "signup.rb" "service_api_key.rb" "scoreboard_rating.rb" "scoreboard_level.rb" "scenario_automation.rb" "role.rb" "quest.rb" "product.rb" "post.rb" "portal_solution_category.rb" "portal_forum_category.rb" "portal.rb" "portal/" "password_reset.rb" "monitorship.rb" "moderatorship.rb" "mobile_app_version.rb" "mobihelp/" "integrations/" "imap_mailbox.rb" "http_request_proxy.rb" "helpdesk/" "group.rb" "google_domain.rb" "google_contact.rb" "global_blacklisted_ip.rb" "freshfone/" "forum_moderator.rb" "forum_category.rb" "forum.rb" "form_ticket_field_value.rb" "flexifield_picklist_val.rb" "flexifield_def_entry.rb" "flexifield_def.rb" "facebook_page_mapping.rb" "es_enabled_account.rb" "email_notification_agent.rb" "email_notification.rb" "email_config.rb" "dynamic_notification_template.rb" "deleted_customers.rb" "day_pass_usage.rb" "day_pass_purchase.rb" "day_pass_config.rb" "data_export.rb" "customer_forum.rb" "customer.rb" "custom_survey/" "conversion_metric.rb" "contact_form.rb" "contact_field_data.rb" "contact_field_choice.rb" "contact_field.rb" "company_form.rb" "company_field_data.rb" "company_field_choice.rb" "company_field.rb" "company.rb" "company/" "chat_widget.rb" "chat_setting.rb" "business_calendar.rb" "authorization.rb" "article_ticket.rb" "agent_group.rb" "agent.rb" "agent/" "affiliate_discount_mapping.rb" "affiliate_discount.rb" "admin_user.rb" "admin_session.rb" "admin/" "address.rb" "achieved_quest.rb" "account_configuration.rb" "account_additional_settings.rb" "account.rb" "account/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/models/integrations/" (21952 23566 0 0) "widget.rb" "user_credential.rb" "native_widget.rb" "jira_webhook.rb" "jira_issue.rb" "integrated_resource.rb" "installed_application.rb" "google_group.rb" "google_account.rb" "github_issue.rb~" "github.rb~" "application.rb" "app_business_rule.rb" "#jira_issue.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/controllers/" (21952 23379 0 0) "widgets/" "wf/" "users_controller.rb" "user_sessions_controller.rb" "topics_controller.rb" "tickets_uploaded_images_controller.rb" "ticket_fields_controller.rb" "theme_controller.rb" "theme/" "survey_questions_controller.rb" "support_controller.rb" "support/" "subscriptions_controller.rb" "subscription_admin/" "sso_controller.rb" "solutions_uploaded_images_controller.rb" "solution/" "social/" "segment/" "search/" "reports_controller.rb" "reports/" "rabbit_mq_controller.rb" "public/" "profiles_controller.rb" "posts_controller.rb" "password_resets_controller.rb" "partner_admin/" "omniauth_controller.rb~" "notification/" "monitorships_controller.rb" "moderators_controller.rb" "mobile/" "mobihelp_controller.rb" "mobihelp/" "mailgun_controller.rb" "javascripts_controller.rb" "integrations/" "http_request_proxy_v2_controller.rb~" "http_request_proxy_controller.rb" "home_controller.rb" "helpdesk/" "health_check_controller.rb" "groups_controller.rb" "google_signup_controller.rb" "google_login_controller.rb" "freshfone_controller.rb" "freshfone_base_controller.rb" "freshfone/" "forums_uploaded_images_controller.rb" "forums_controller.rb" "forum_categories_controller.rb" "fdadmin/" "exceptions_controller.rb" "email_notification_uploaded_images_controller.rb" "email_controller.rb" "domain_search_controller.rb" "discussions_controller.rb" "discussions/" "customers_import_controller.rb" "customers_controller.rb" "custom_fields_controller.rb" "contacts_controller.rb" "contact_merge_controller.rb" "companies_controller.rb" "chats_controller.rb" "billing/" "authorizations_controller.rb" "application_controller.rb.rails2" "application_controller.rb" "api_webhooks_controller.rb" "anonymous/" "agents_controller.rb" "admin/" "activations_controller.rb" "accounts_controller.rb" "account_configurations_controller.rb" ".DS_Store" "#omniauth_controller.rb#" "#http_request_proxy_controller.rb#" "#application_controller.rb#" "../" "./")
+
+ ("/Users/user/" (21952 23381 0 0) "workspace/" "VirtualBox VMs/" "usefulcommands.txt~" "usefulcommands.txt" "tmux-session" "test.html.erb" "test.html" "test.h2.db" "test/" "temp-2829.rdb" "Study/" "sso_spec_fix.diff" "server.orig.key" "server.key" "server.csr" "server.crt" "Saml.txt" "saml.diff" "rspec_result.txt~" "rspec_result.txt" "Public/" "Pictures/" "node_modules/" "Music/" "Movies/" "lifttest/" "liftapp/" "Library/" "keys/" "htdocs/" "Freshdesk/" "elasticsearch-1.5.2/" "dump.rdb" "Downloads/" "Documents/" "diff.txt" "development/" "Desktop/" "cacert.pm" "bin/" "Applications/" "a.txt" ".zshrc~" ".zshrc.omz-uninstalled-20150521191844" ".zshrc.bak" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history.bak" ".zsh_history" ".zsh-update" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump-Shreyas'MAC-5.0.5" ".zcompdump" ".zcompcache/" ".Xauthority" ".viminfo" ".vegas/" ".Trash/" ".tmux.conf" ".tmux-session" ".subversion/" ".ssl/" ".ssh/" ".scala_history" ".sbt/" ".Saml.txt.swp" ".rvm/" ".rnd" ".rediscli_history" ".pryrc" ".pry_history" ".profile" ".ovftool.ssldb" ".npm/" ".node-gyp/" ".ngrok" ".netrc~" ".netrc" ".mkshrc" ".local/" ".lesshst" ".jrebel/" ".ivy2/" ".irb-history" ".heroku/" ".h2.server.properties" ".gitignore~" ".gitignore" ".gitconfig~" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bashrc~" ".bashrc" ".bash_profile" ".bash_history" "#test.rb#" "#Saml.txt#" "#.bashrc#" "../" "./")
+
+ ("/Users/user/.emacs.d/" (21952 23379 0 0) "themes/" "saveplace.elc" "saveplace.el" "saveplace" "rake.cache" "projectile.cache" "projectile-bookmarks.eld" "init.el~" "init.elc~" "init.elc" "init.el" "ido.last~" "ido.last" "emacs-color-theme-solarized-master/" "elpa/" "color-theme-solarized.elc" "color-theme-solarized.el" "auto-save-list/" "ac-comphist.dat" ".DS_Store" "%backup%~" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/config/" (21952 23358 0 0) "widget_data.yml" "whitelisted_link_domains.yml" "wf/" "virtual_agent.yml" "va_handlers.yml" "twitter.yml" "tour_my_app.yml" "tiny_mce.yml" "text_datastore.yml" "stopwords-en.txt" "statsd.yml" "sqs.yml" "sphinx_development.yml" "sns.yml" "sidekiq_client.yml" "sidekiq.yml" "s3_static_files.yml" "s3.yml" "routes.rb.rails2" "routes.rb" "riak_buckets.yml" "riak.yml" "redshift.yml" "redis_routes.yml" "redis_mobile.yml" "redis_display_id.yml" "redis_development.yml" "redis.yml" "rate_limit.yml" "rabbitmq.yml" "privileges.yml" "privileges.rb" "preinitializer.rb" "pod_info.yml" "paypal.yml" "pager_duty.yml" "oauth_config.yml" "node_js.yml" "newrelic.yml" "mobile_config.yml" "metric_events.yml" "mailgun.yml" "mailbox.yml" "locales/" "klout.yml" "integrations_config.yml" "initializers/" "helpdesk_reports/" "helpdesk_initializers.yml" "helpdesk.yml" "google_api.yml" "google-apps/" "gnip.yml" "gateway.yml" "freshfone.yml" "freshfone/" "fontcustom.yml.rails2" "fontcustom.yml" "fdadmin_api_config.yml" "facebook.yml" "environments/" "environment.rb.rails2" "environment.rb" "email.yml" "elasticsearch_development.yml" "elasticsearch.yml" "dynamo_db.yml" "database.yml.rails2" "database.yml" "data/" "dalli.yml" "config.yml" "compass.rb.rails2" "compass.rb" "chrome_extension.yml" "chat.yml" "cert/" "braintree.yml" "boot.rb" "autopilot.yml" "assets.yml" "asset_sync.yml" "application.rb" "app_metrics.yml" "app_config.yml" "akismet.yml" "admin_roles.yml" "addons.yml" "activity_ids.yml" ".#privileges.yml" "#privileges.yml#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/db/" (21952 21262 0 0) "seeds.rb" "schema.rb" "old_migrations/" "migrate/" "global_phone.json" "fixtures/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/config/environments/" (21951 32744 0 0) "test.rb" "staging.rb.rails2" "staging.rb" "slave.rb" "production.rb.rails2" "production.rb" "development.rb.rails2" "development.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/views/helpdesk/tickets/show/" (21951 32744 0 0) "reminders/" "agent_collision.jst" "_whats_new.html.erb" "_tweet_form.html.erb" "_todo.html.erb" "_ticket_fields.html.erb" "_ticket_field_elements.html.erb" "_tags.html.erb" "_survey_note.html.erb" "_sticky_status.html.erb" "_sticky.html.erb" "_status.html.erb" "_sidebar.html.erb" "_scriptvars.html.erb" "_scenarios.html.erb" "_response_added_alert.html.erb" "_requester_tickets.html.erb" "_requester.html.erb" "_reply_to_forward.html.erb" "_reply_form.html.erb" "_original_request.html.erb" "_note_form.html.erb" "_note_attachments.html.erb" "_note.html.erb" "_new_conversation.html.erb" "_multifile_template.erb" "_mobihelp_reply_form.html.erb" "_integrations.html.erb" "_info_widget.html.erb" "_info.html.erb" "_forward_form.html.erb" "_form_layout.html.erb" "_facebook_form.html.erb" "_editor_insert_buttons.html.erb" "_due_date.html.erb" "_due_by.html.erb" "_custom_survey_note.html.erb" "_conversations.html.erb" "_collision.html.erb" "_attachment_form.html.erb" "_app_review_form.html.erb" "_app_info_sidebar.html.erb" "_app_info.html.erb" "_app_device_info.html.erb" "_activity.html.erb" "_activities.html.erb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/workers/" (21951 32744 0 0) "webhook.rb" "throttler.rb" "supervisor.rb" "subscriber.rb" "sla.rb" "restore_spam_tickets.rb" "populate_ticket_form_fields_worker.rb" "populate_stats_data_worker.rb" "observer.rb" "merge_tickets.rb" "livechat.rb" "integrations/" "import/" "helpkit/" "fb_split_tickets.rb" "export_contact.rb" "export_company.rb" "dev_notification.rb" "detect_user_language.rb" "delete_archived_data.rb" "community/" "clear_trash.rb" "clear_spam.rb" "clear_account_data.rb" "bulk_reply_tickets.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integrations/quickbooks/" (21951 32744 0 0) "constant.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integrations/jira/" (21951 32710 0 0) "webhook_installer.rb" "helper.rb" "constant.rb" "api.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/public/javascripts/" (21951 32744 0 0) "widgetinit.js" "utils.js" "util-dates.js" "timesheet.js" "ticket_list.js" "themes/" "syntaxhighlighter/" "survey/" "subscription/" "strftime-min.js" "sound/" "social/" "sinon.js" "security.js" "reversePaging.js" "report/" "redactor/" "prototype-1.6.js" "profile_avatar.js" "portal/" "plugins/" "placeholder-events.js" "pattern/" "observer_events.js" "navsearch.js" "moment/" "modules/" "modernizr-2.5.3-respond-1.1.0.min.js" "mobihelp.js" "mColorPicker.min.js" "lookup.js" "livechat/" "lib/" "lang/" "labs/" "jquery_ujs.js" "jquery.pjax.js" "jquery.pageslide.js" "jquery.keypad.js" "jquery-1.8.3.min.js" "jquery-1.7.2.js" "jquery-1.7.1.min.js" "integrations/" "html2canvas.js" "highcharts.src.js" "highcharts.js" "highcharts-more.js" "highcharts-2.1.9.js" "helpdesk_reports/" "helpdesk/" "hackz.js" "globalinit.js" "ghost-mod.js" "getting_started.js" "freshwidget.js" "freshfone.js" "freshfone/" "freshchat/" "frameworks/" "fjax.js" "fjax/" "feedback_widget_form.js" "fast_autocompleter.js" "factory_ui.js" "excanvas.js" "effects.js" "dyn_menu.js" "dragdrop.js" "custom_widget.js" "custom_validators.js" "custom-form/" "cti/" "controls.js" "condition-filter.js" "client_logger.js" "chat/" "cdn/" "capsule_crm.js" "calendar_date_select/" "bootstrap.js" "bootstrap-old.js" "bootstrap/" "base64.js" "autosuggest.js" "application.js" "app/" "agent_availability_status/" "adv_reports/" "admin/" "adapters/" "#custom_widget.js#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/config/locales/" (21951 32744 0 0) "zh-CN.yml" "vi.yml" "uk.yml" "tr.yml" "sv-SE.yml" "sl.yml" "sk.yml" "ru-RU.yml" "pt-PT.yml" "pt-BR.yml" "pl.yml" "nl.yml" "nb-NO.yml" "ko.yml" "ja-JP.yml" "it.yml" "id.yml" "hu.yml" "fr.yml" "fi.yml" "et.yml" "es.yml" "es-LA.yml" "en.yml" "de.yml" "da.yml" "cs.yml" "ca.yml" "ar.yml" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/import/" (21951 32744 0 0) "zendesk_data.rb" "zen/" "tender_import.rb" "forums.rb" "fd_sax.rb" "customers/" "custom_field.rb" "attachment.rb" "#custom_field.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/helpers/" (21951 32744 0 0) "widgets/" "users_helper.rb" "user_emails_helper.rb" "uploaded_images_helper.rb" "topic_merge_helper.rb" "ticket_fields_helper.rb" "support_helper.rb" "support/" "subscriptions_helper.rb" "subscription_admin/" "solution/" "social/" "search/" "reports_helper.rb" "reports/" "profiles_helper.rb" "integrations/" "home_helper.rb" "helpdesk/" "groups_helper.rb" "google_signup_helper.rb" "google_login_helper.rb" "github_helper.rb~" "freshfone/" "email_commands_settings_helper.rb" "discussions_helper.rb" "contacts_helper.rb" "contacts_companies_helper.rb" "companies_helper.rb" "chat_helper.rb" "autocomplete_helper.rb" "application_helper.rb.rails2" "application_helper.rb" "app_form_builder_helper.rb" "anonymous/" "agents_helper.rb" "admin/" "activations_helper.rb" "accounts_helper.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/models/helpdesk/" (21951 32744 0 0) "user_access.rb" "time_sheet.rb" "ticket_status.rb" "ticket_state.rb" "ticket_old_body.rb" "ticket_issue.rb" "ticket_field.rb" "ticket_body_weekly.rb" "ticket_body.rb" "ticket.rb" "ticket/" "tag_use.rb" "tag.rb" "subscription.rb" "sla_policy.rb" "sla_detail.rb" "shared_attachment.rb" "section_picklist_value_mapping.rb" "section_field.rb" "section.rb" "schema_less_ticket.rb" "schema_less_note.rb" "report_filter.rb" "reminder.rb" "picklist_value.rb" "note_old_body.rb" "note_body_weekly.rb" "note_body.rb" "note.rb" "note/" "nested_ticket_field.rb" "issue.rb" "group_access.rb" "filters/" "external_note.rb" "cloud_file.rb" "attachment.rb" "activity.rb" "access.rb" "access/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/models/helpdesk/note/" (21951 32744 0 0) "s3.rb" "riak.rb" "rabbitmq.rb" "mysql.rb" "constants.rb" "callbacks.rb" "attributes.rb" "associations.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/controllers/admin/" (21951 32743 0 0) "zen_import_controller.rb" "widget_config_controller.rb" "va_rules_controller.rb" "templates_controller.rb" "surveys_controller.rb" "supervisor_rules_controller.rb" "social/" "security_controller.rb" "roles_controller.rb" "quests_controller.rb" "products_controller.rb" "portal_controller.rb" "pages_controller.rb" "observer_rules_controller.rb" "mobihelp/" "home_controller.rb" "getting_started_controller.rb" "gamification_controller.rb" "freshfone_controller.rb" "freshfone/" "email_notifications_controller.rb" "email_configs_controller.rb" "email_commands_settings_controller.rb" "dynamic_notification_templates_controller.rb" "day_passes_controller.rb" "data_export_controller.rb" "custom_surveys_controller.rb" "contact_fields_controller.rb" "company_fields_controller.rb" "chat_widgets_controller.rb" "business_calendars_controller.rb" "admin_controller.rb" "account_additional_settings_controller.rb" "#security_controller.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/controllers/integrations/" (21951 32743 0 0) "xero_controller.rb" "widgets_controller.rb" "user_credentials_controller.rb" "slack_controller.rb" "remote_configurations_controller.rb" "quickbooks_controller.rb" "pivotal_tracker_controller.rb" "oauth_util_controller.rb" "logmein_controller.rb" "jira_issue_controller.rb" "integrated_resources_controller.rb" "installed_applications_v2_controller.rb~" "installed_applications_controller.rb" "google_accounts_controller.rb" "gmail_gadgets_controller.rb" "github_issue_controller.rb~" "github_controller.rb~" "dynamics_crm_controller.rb" "cti/" "box_controller.rb" "applications_controller.rb" ".#oauth_util_controller.rb" "#pivotal_tracker_controller.rb#" "#oauth_util_controller.rb#" "#logmein_controller.rb#" "#jira_issue_controller.rb#" "#integrated_resources_controller.rb#" "#applications_controller.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/models/account/" (21951 32744 0 0) "validations.rb" "rabbitmq.rb" "constants.rb" "callbacks.rb" "associations.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/spec/" (21951 32745 0 0) "support/" "spec_helper.rb" "spec.opts" "rcov.opts" "rails_helper.rb" "models/" "mailers/" "lib/" "javascripts/" "helpers/" "fixtures/" "filters/" "factories/" "controllers/" ".DS_Store" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/spec/controllers/integrations/" (21951 32711 0 0) "user_credentials_controller_spec.rb" "slack_controller_spec.rb" "remote_configurations_controller_spec.rb" "quickbooks_controller_spec.rb" "pivotal_tracker_controller_spec.rb" "oauth_util_controller_spec.rb" "logmein_controller_spec.rb" "jira_issue_controller_spec.rb" "integrated_resources_controller_spec.rb" "installed_applications_controller_spec.rb" "http_request_proxy_controller_spec.rb" "google_accounts_controller_spec.rb" "gmail_gadgets_controller_spec.rb" "dynamics_crm_controller_spec.rb" "cti/" "applications_controller_spec.rb" ".#pivotal_tracker_controller_spec.rb" "#pivotal_tracker_controller_spec.rb#" "#installed_applications_controller_spec.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/workers/integrations/" (21951 32710 0 0) "jira_account_updates.rb" "github_worker.rb~" "github_issue.rb~" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/helpdesk/initializers/" (21951 32744 0 0) "wrap_parameters.rb" "will_paginate.rb" "white_list_formatted_content.rb" "virtual_agent.rb" "twitter_config.rb" "time_formats.rb" "text_datastore.rb" "string_ext.rb" "statsd_config.rb" "spam_watcher.rb" "site_keys.rb" "site_cloudfront_asset_host.rb" "sidekiq.rb" "session_store.rb" "secret_token.rb" "ruby193_monkey_patches.rb" "riak.rb" "resque.rb" "resource_rate_limit.rb" "redshift.rb" "redis.rb" "rails3_patches.rb" "rabbit_mq.rb" "query_trace.rb" "portal_init.rb" "pdf_executable_path.rb" "omniauth.rb" "new_rails_defaults.rb" "mri2.1_patches.rb" "mime_types.rb" "memcached.rb" "load_config.rb" "liquid.rb" "klout_config.rb" "integrations.rb" "inflections.rb" "i18n.rb" "helpdesk_reports/" "helpdesk.rb" "gnip_config.rb" "global_phone.rb" "facebook_config.rb" "elasticsearch.rb" "country_list.rb" "count_fix.rb" "concerns.rb" "compass.rb" "chat_config.rb" "big_brother.rb" "belongs_to_account.rb" "aws_s3.rb" "aws_forums.rb" "aws/" "autopilot_config.rb" "authlogic_patch.rb" "asset_sync.rb" "akismet_config.rb" "admin_roles.rb" "activerecord_log.rb" "action_mailer_no_tmail.rb" "action_mailer_callbacks.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integrations/" (21951 32744 0 0) "widget_core.rb" "util.rb" "time_sheets_sync.rb" "survey_monkey.rb" "slack/" "salesforce_util.rb" "remote_configurations/" "quickbooks_util.rb" "quickbooks/" "pivotal_tracker/" "object_mapper.rb" "oauth_helper.rb" "mapper/" "jira_util.rb" "jira/" "integration_rules_handler.rb~" "integration_helper.rb" "google_contacts_util.rb" "google_contacts_importer.rb" "google_calendar_email_finder.rb" "github_api.rb~" "fd_text_filter.rb" "dynamics_crm/" "constants.rb" "batchbook_version_detector.rb" "apps_util.rb" "#oauth_helper.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/views/integrations/applications/" (21951 32744 0 0) "test.html.erb~" "show.html.erb" "salesforce_fields.html.erb" "remote_login.html.erb" "quickbooks_login.html.erb~" "quickbooks_login.html.erb" "quickbooks_install_success.html.erb" "new.html.erb" "index.html.erb" "github_settings.html.erb~" "edit.html.erb" "dynamics_crm/" "_slack_setting.html.erb" "_screenr_settings.html.erb" "_quickbooks_c2qb.html.erb" "_pivotal_tracker_form.html.erb" "_jira_sync_settings.html.erb" "_helpnote.html.erb" "_google_sync_status.html.erb" "_google_analytics.html.erb" "_google_accounts.html.erb" "_github_issue.html.erb~" "_github_form.html.erb~" "_github_enterprise_form.html.erb~" "_dropbox.html.erb" "_custom_application_form.html.erb" "_box.html.erb" "_application_form.html.erb" "#show.html.erb#" "#remote_login.html.erb#" "#_jira_sync_settings.html.erb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/va/" (21951 30701 0 0) "webhook/" "util.rb" "rule_handler.rb" "performer.rb" "observer/" "handlers/" "event_handlers/" "event_handler.rb" "event.rb" "constants.rb" "condition.rb" "action.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integration_services/services/github/" (21951 32710 0 0) "github_issue_resource.rb~" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/" (21951 32743 0 0) "vendor/" "tmp/" "test/" "spec/" "script/" "README.rdoc" "README" "Rakefile" "public/" "omnitmp/" "mobile/" "log/" "LICENSE" "lib/" "integrations/" "Gemfile.lock" "Gemfile" "dump.rdb" "doc/" "deploy/" "db/" "config.ru" "config/" "app/" ".sass-cache/" ".rspec" ".projectile~" ".projectile" ".gitignore.rails2" ".gitignore" ".git/" ".gems" ".fontcustom-manifest.json" ".DS_Store" "#tmux-session#" "#config.ru#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/" (21951 30702 0 0) "workers/" "va/" "utils/" "utilities.rb" "users/" "user_helper_methods.rb" "uploaded_images_controller_methods.rb" "two_factor_authentication.rb" "twitter_wrapper.rb" "twilio_master.rb" "trigger_sql.rb" "tour_my_app.rb" "token_generator.rb" "timezone/" "time_zone.rb" "tickets_filter.rb" "ticket_constants.rb" "third_crm.rb" "tasks/" "sync_type.rb" "survey_rule_helper_methods.rb" "survey_helper.rb" "support_ticket_controller_methods.rb" "support_note_controller_methods.rb" "support_discussions_controller_methods.rb" "subscription_system.rb" "subscription/" "sso_util.rb" "spam_watcher/" "spam_post_methods.rb" "spam_migration_dynamo.rb" "spam_counter_next.rb" "spam_counter_methods.rb" "spam_counter.rb" "spam_attachment_methods.rb" "spam_analysis.rb" "solution/" "social/" "smtp_tls.rb" "shortcut.rb" "security_notification.rb" "search_util.rb" "search/" "sanitize/" "saas/" "ruby_bridge.rb" "rtl_helper.rb" "restrict_controller_action.rb" "resque_web.rb" "resque/" "reports/" "remote_file.rb" "redis/" "reads_to_slave.rb" "rabbit_mq/" "portal/" "populate_global_blacklist_ips_table.rb" "populate_account_seed.rb" "plugins/" "perform_table_partition.rb" "password.rb" "parser_util.rb" "omniauth/" "monitoring/" "moderation_util.rb" "model_controller_methods.rb" "mobile/" "mobihelp/" "mixpanel_wrapper.rb" "middleware/" "meta_helper_methods.rb" "memcache_keys.rb" "marketo/" "mailer_deliver_alias.rb" "mailbox_validator.rb" "mailbox_constants.rb" "mailbox/" "mail_fixture.rb" "livechat/" "liquid/" "integrations/" "integration_services/" "import_csv_util.rb" "import/" "http_proxy_methods.rb" "helpdesk_system.rb" "helpdesk_controller_methods.rb" "helpdesk_access_methods.rb" "helpdesk/" "hashit.rb" "guid.rb" "google_oauth.rb" "google_client.rb" "gamification/" "freshfone/" "freshdesk_core/" "forum_unpublished_next.rb" "forum_unpublished.rb" "forum_spam_next.rb" "forum_spam_methods.rb" "forum_spam.rb" "forum_helper_methods.rb" "form_builders/" "fdadmin/" "faye/" "facebook_routing.rb" "export_csv_util.rb" "export/" "error_handle.rb" "email_commands.rb" "dynamo.rb" "dynamo/" "default_pagination_renderer.rb" "daemon.rb" "customer_deprecation_methods.rb" "custom_survey_helper.rb" "custom_logger.rb" "crm/" "conversations/" "controller_logger.rb" "confirm_delete_helper.rb" "companies_helper_methods.rb" "community_helper.rb" "community_constants.rb" "community/" "cloud_files_helper.rb" "clock.rb" "capsulecrm.rb" "capsulecrm/" "cache/" "business_rules_observer.rb" "business_calendar_ext/" "bootstrap_pagination_renderer.rb" "billing/" "aws_wrapper/" "automation_controller_methods.rb" "auto_link_mail_interceptor.rb" "authentication_system.rb" "attachment_helper.rb" "assets/" "asset_loader.rb" "article_body_migration.rb" "app_metrics.rb" "api_webhooks/" "api_helper_methods.rb" "agents/" "admin_controller_methods.rb" "account_metric_helper_methods.rb" "account_constants.rb" "account_additional_settings/" "accessible_controller_methods.rb" "#sso_util.rb#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/redis/" (21951 14832 0 0) "zen_import_redis.rb" "tickets_redis.rb" "spam_migration.rb" "routes_redis.rb" "reports_redis.rb" "redis_keys.rb" "portal_redis.rb" "others_redis.rb" "mobile_redis.rb" "key_value_store.rb" "key_spec.rb" "integrations_redis.rb" "gnip_redis_methods.rb" "display_id_redis.rb" "../" "./")
+
+ ("/Users/user/Documents/" (21945 1843 0 0) "tn plans.xls" "resume_Savitha.pdf" "repos1.txt" "repos.txt~" "repos.txt" "Principles_and_Patterns.pdf" "Prashanth Resume Latest.docx" "OK_Kanmani_(2015)_[DVDRip_-_Lotus_-_x264_-_1CDRip_-_700MB_-_Tamil].torrent" "Lost+The+Complete+Series+Season+1%2C2%2C3%2C4%2C5%2C6+%2B+English+Subs.torrent" "linuxmint-17.2-mate-64bit.iso.torrent" "linuxmint-17.2-cinnamon-64bit.iso.torrent" "HeadFirstDesignPatterns.pdf" "GitHubIntegration.txt~" "GitHubIntegration.txt" "FileZilla_3.11.0.2_macosx-x86.app.tar.bz2" "FileZilla_3.10.3_macosx-x86.app.tar.bz2" "escape.plan.(2013).eng.1cd.(5777239).zip" "escape.plan.(2013).eng.1cd.(5777239)/" "Escape+Plan+-+Thriller+Stallone+Schwarzenegger+Eng+Subs+1080p+%5BH.torrent" "Detective.Byomkesh.Bakshy.720p.BRRip.x264.Hindi.AAC-ETRG.torrent" "DesignPatterns.pdf" "bill.pdf" "bill (1).pdf" "59496658_1436608917722.pdf" "59496658_1436608634068.pdf" "59496658_1436608552266.pdf" ".localized" ".DS_Store" "#repos1.txt#" "#GitHubIntegration.txt#" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/auth/" (21944 48580 0 0) "github_authenticator.rb" "github.rb~" "authenticator.rb~" "authenticator.rb" ".#authenticator.rb" "#authenticator.rb#" "../" "./")
+
+ ("/Users/user/.zprezto/modules/prompt/functions/" (21854 9548 0 0) "prompt_steeef_setup" "prompt_sorin_setup" "prompt_smiley_setup" "prompt_skwp_setup" "prompt_pure_setup" "prompt_powerline_setup" "prompt_peepcode_setup" "prompt_paradox_setup" "prompt_nicoulaj_setup" "prompt_minimal_setup" "prompt_kylewest_setup" "prompt_giddie_setup" "prompt_damoekri_setup" "prompt_cloud_setup" "prompt_agnoster_setup" "../" "./")
+
+ ("/Users/user/.zprezto/modules/git/functions/" (21853 58645 0 0) "git-submodule-remove" "git-submodule-move" "git-stash-recover" "git-stash-dropped" "git-stash-clear-interactive" "git-root" "git-info" "git-hub-shorten-url" "git-hub-browse" "git-dir" "git-commit-lost" "git-branch-current" "_git-submodule-remove" "_git-submodule-move" "_git-info" "_git-hub-shorten-url" "_git-hub-browse" "../" "./")
+
+ ("/Users/user/.zprezto/modules/git/" (21853 58645 0 0) "README.md" "init.zsh" "functions/" "alias.zsh" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/va/handlers/" (21926 21443 0 0) "text_array.rb" "text.rb" "object_id.rb" "numeric.rb" "nested_field.rb" "email.rb" "decimal.rb" "date_time.rb" "date.rb" "boolean.rb" "allow_all.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/va/event_handlers/" (21815 18878 0 0) "value.rb" "update.rb" "nested_field.rb" "change.rb" "agent.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/helpers/admin/" (21929 2827 0 0) "zip_readers_helper.rb" "zen_import_helper.rb" "xmlreader_helper.rb" "widget_config_helper.rb" "va_rules_helper.rb" "templates_helper.rb" "supervisor_rules_helper.rb" "social/" "roles_helper.rb" "products_helper.rb" "portal_helper.rb" "observer_rules_helper.rb" "home_helper.rb" "getting_started_helper.rb" "freshfone_helper.rb" "freshfone/" "email_notifications_helper.rb" "email_configs_helper.rb" "day_passes_helper.rb" "business_calendars_helper.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/spec/models/" (21929 2828 0 0) "va_rule_spec.rb" "survey_spec.rb" "survey_result_spec.rb" "survey_handle_spec.rb" "social/" "monitorship_spec.rb" "mobihelp/" "helpdesk/" "freshfone/" "flexifield_spec.rb" "custom_survey_spec.rb" "custom_survey_result_spec.rb" "custom_survey_handle_spec.rb" "chat_setting_spec.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integrations/github_api/" (21943 17381 0 0) "github_webhooks.rb" "github_utils.rb" "github_repositories.rb" "github_organizations.rb" "github_issues.rb" "../" "./")
+
+ ("/Users/user/.zprezto/modules/ruby/functions/" (21853 58645 0 0) "ruby-info" "ruby-app-root" "../" "./")
+
+ ("/Users/user/.zprezto/modules/ruby/" (21853 58645 0 0) "README.md" "init.zsh" "functions/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/config/initializers/" (21915 54019 0 0) "load_initializers.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/spec/controllers/" (21929 2929 0 0) "widgets/" "wf_filters_controller_spec.rb" "users_controller_spec.rb" "topics_controller_spec.rb" "tickets_uploaded_images_controller_spec.rb" "ticket_fields_controller_spec.rb" "support/" "subscriptions_controller_spec.rb" "subscription_admin/" "sso_controller_spec.rb" "solution_uploaded_images_controller_spec.rb" "social/" "slow_tests/" "reports/" "rabbit_mq_controller_spec.rb" "profiles_controller_spec.rb" "password_resets_controller_spec.rb" "partner_admin/" "notification/" "negative/" "multiple_user_email_controller_spec.rb" "monitorships_controller_spec.rb" "mobile/" "mobihelp/" "mailgun_controller_spec.rb" "integrations/" "home_controller_spec.rb" "helpdesk/" "groups_controller_spec.rb" "google_signup_controller_spec.rb" "google_login_controller_spec.rb" "freshfone/" "forums_uploaded_images_controller_spec.rb" "forums_controller_spec.rb" "forum_categories_controller_spec.rb" "fdadmin/" "email_notification_uploaded_images_controller_spec.rb" "email_controller_spec.rb" "domain_search_controller_spec.rb" "discussions_controller_spec.rb" "discussions/" "customers_controller_spec.rb" "contacts_import_controller_spec.rb" "contacts_controller_spec.rb" "contact_merge_controller_spec.rb" "companies_import_controller_spec.rb" "companies_controller_spec.rb" "chats_controller_spec.rb" "billing/" "authorizations_controller_spec.rb" "api_webhooks_controller_spec.rb" "api/" "agents_controller_spec.rb" "admin/" "activations_controller_spec.rb" "accounts_controller_spec.rb" "account_configurations_controller_spec.rb" ".DS_Store" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/spec/support/" (21929 2828 0 0) "wf_filter_helper.rb" "wf/" "va/" "user_helper.rb" "usage_triggers_spec_helper.rb" "upload_images.rb" "twitter_helper.rb" "ticket_helper.rb" "survey_helper.rb" "subscription_helper.rb" "spork_patch.rb" "solutions_helper.rb" "social_helper.rb" "sla_policies_helper.rb" "s3_helper.rb" "roles_helper.rb" "quest_helper.rb" "products_helper.rb" "perf_helper.rb" "note_helper.rb" "mobile_helper.rb" "mobihelp_helper.rb" "mailgun_helper.rb" "jira_helper.rb" "integrations_helper.rb" "group_helper.rb" "gnip_helper.rb" "freshfone_transfer_spec_helper.rb" "freshfone_spec_helper.rb" "freshfone_queue_helper.rb" "freshfone_call_spec_helper.rb" "freshfone_actions_spec_helper.rb" "forum_helper.rb" "forum_dynamo_helper.rb" "facebook_helper.rb" "email_helper.rb" "dynamo_helper.rb" "dynamic_template_helper.rb" "custom_matcher.rb" "controller_helper.rb" "controller_data_fetcher.rb" "contact_fields_helper.rb" "company_helper.rb" "canned_responses_helper.rb" "automations_helper.rb" "applications_helper.rb" "api_helper.rb" "api_auth_helper.rb" "agent_helper.rb" "account_helper.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/public/src/app/" (21929 2828 0 0) "lib/" "ie.scss" "application.scss" "app-common.scss" "app-bootstrap.scss" "_shortcuts-chart.scss" "_rtl-styles.scss" "../" "./")
+
+ ("/Users/user/Freshdesk/hipchat/app/controllers/" (21816 36295 0 0) "hipchat_controller.rb" "config_controller.rb" "application_controller.rb" "../" "./")
+
+ ("/Users/user/development/aha-services/lib/services/github/" (21939 9685 0 0) "github_resource.rb" "github_repo_resource.rb" "github_milestone_resource.rb" "github_label_resource.rb" "github_issue_resource.rb" "../" "./")
+
+ ("/Users/user/development/aha-services/lib/services/" (21939 7106 0 0) "zendesk.rb" "webhooks.rb" "trello.rb" "trello/" "tfs.rb" "tfs/" "slack.rb" "salesforce.rb" "redmine.rb" "redmine/" "rally.rb" "rally/" "pivotal_tracker.rb" "pivotal_tracker/" "jira_connect.rb" "jira.rb" "jira/" "hip_chat.rb" "github_issues.rb" "github_commit_hook.rb" "github/" "generic_resource.rb" "fogbugz.rb" "fogbugz/" "flowdock.rb" "development_proxy.rb" "bugzilla.rb" "bugzilla/" "bitbucket_issues.rb" "bitbucket_commit_hook.rb" "bitbucket/" "audit_webhook.rb" "../" "./")
+
+ ("/Users/user/development/aha-services/lib/" (21939 7106 0 0) "services/" "proxy/" "aha-services.rb" "aha-services/" "../" "./")
+
+ ("/Users/user/development/aha-services/" (21939 7106 0 0) "spec/" "README.md" "LICENSE" "lib/" "Gemfile.lock" "Gemfile" "docs/" "config/" "bin/" "aha-services.gemspec" ".ruby-version" ".ruby-gemset" ".rspec" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/tasks/" (21927 38790 0 0) "weekly_table.rake" "twitter.rake" "supervisor.rake" "sqs.rake" "spam_watcher_redis.rake" "spam_watcher.rake" "spam_digest_mailer.rake" "sla.rake" "scheduler.rake" "s3_to_riak.rake" "rspec.rake" "riak.rake" "resque.rake" "resource_rate_limit.rake" "reports.rake" "populate_tickets_notes_limit.rake" "jobs_watcher.rake" "hash_locale.rake" "google_contacts.rake" "gnip_stream.rake" "freshfone.rake" "forum_moderation.rake" "es_tire.rake" "email_dynamo.rake" "db_backup.rake" "custom_stream.rake" "bootstrap.rake" "account_metrics.rake" "../" "./")
+
+ ("/Users/user/.emacs.d/elpa/" (21923 23996 0 0) "yaml-mode-readme.txt" "yaml-mode-20141125.37/" "web-mode-20150709.1434/" "scss-mode-readme.txt" "scss-mode-20150107.1400/" "scala-mode2-20150617.2350/" "s-20140910.334/" "rvm-readme.txt" "rvm-20150402.742/" "ruby-guard-readme.txt" "rspec-mode-readme.txt" "rspec-mode-20150709.1212/" "robe-readme.txt" "robe-20150430.1724/" "rake-20150124.728/" "projectile-rails-readme.txt" "projectile-rails-20150422.829/" "projectile-20150701.121/" "popup-20150626.711/" "pkg-info-20150517.443/" "php-mode-readme.txt" "php-mode-20150623.431/" "phi-search-readme.txt" "phi-search-20150419.2332/" "multi-web-mode-readme.txt" "moe-theme-readme.txt" "makey-20131231.630/" "inflections-20121016.157/" "inf-ruby-20150602.1153/" "imenu-list-readme.txt" "imenu+-readme.txt" "go-mode-20150709.1243/" "git-20140128.241/" "gh-readme.txt" "flymake-ruby-readme.txt" "flymake-ruby-20121104.1059/" "flymake-jshint-readme.txt" "flymake-easy-20140818.55/" "flx-ido-20140821.2033/" "flx-20140921.739/" "f-20150605.927/" "epl-20150517.433/" "enh-ruby-mode-readme.txt" "enh-ruby-mode-20150711.1530/" "emmet-mode-readme.txt" "emmet-mode-20150410.803/" "discover-20140103.1339/" "dash-20150704.253/" "color-theme-20080305.34/" "auto-complete-readme.txt" "auto-complete-20150618.1949/" "archives/" "ac-emmet-readme.txt" "ac-emmet-20131015.858/" "../" "./")
+
+ ("/Users/user/.rvm/gems/ruby-2.1.5@rails3/gems/factory_girl-4.4.0/lib/factory_girl/" (21815 22077 0 0) "version.rb" "trait.rb" "syntax_runner.rb" "syntax.rb" "syntax/" "strategy_syntax_method_registrar.rb" "strategy_calculator.rb" "strategy/" "sequence.rb" "reload.rb" "registry.rb" "null_object.rb" "null_factory.rb" "find_definitions.rb" "factory_runner.rb" "factory.rb" "evaluator_class_definer.rb" "evaluator.rb" "evaluation.rb" "errors.rb" "definition_proxy.rb" "definition_hierarchy.rb" "definition.rb" "decorator.rb" "decorator/" "declaration_list.rb" "declaration.rb" "declaration/" "configuration.rb" "callbacks_observer.rb" "callback.rb" "attribute_list.rb" "attribute_assigner.rb" "attribute.rb" "attribute/" "aliases.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/helpdesk/" (21915 54021 0 0) "utils/" "update_ticket_states.rb" "toggle_email_notification.rb" "toggle_agent_from_groups.rb" "tickets_helper_methods.rb" "tickets_export_worker.rb" "tickets_export.rb" "ticketfields/" "ticket_notifications.rb" "ticket_model_extension.rb" "ticket_filter_methods.rb" "ticket_elastic_search_methods.rb" "ticket_custom_fields.rb" "ticket_activities.rb" "ticket_actions.rb" "text/" "tag_methods.rb" "string_util.rb" "services/" "s3/" "roles.rb" "riak/" "reorder_utility.rb" "process_email.rb" "process_by_message_id.rb" "notifier_formatting_methods.rb" "note_actions.rb" "mysql/" "merge_ticket_actions.rb" "kbase_articles.rb" "initializers/" "html_sanitizer.rb" "export_data_worker.rb" "export_data.rb" "email/" "detect_user_language.rb" "bulk_reply_tickets.rb" "adjacent_tickets.rb" "add_agent_to_round_robin.rb" "activities.rb" "accessible/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/drops/" (21915 54017 0 0) "user_drop.rb" "solution/" "search_drop.rb" "portal_drop.rb" "page_drop.rb" "installed_app_drop.rb" "helpdesk/" "hash_drop.rb" "forum/" "company_drop.rb" "base_drop.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/drops/helpdesk/" (21915 54017 0 0) "ticket_drop.rb" "tag_drop.rb" "note_drop.rb" "cloud_file_drop.rb" "attachment_drop.rb" "../" "./")
+
+ ("/Users/user/.rvm/gems/ruby-2.1.5@rails3/gems/railties-3.2.18/lib/" (21815 21867 0 0) "rails.rb" "rails/" "../" "./")
+
+ ("/Users/user/.emacs.d/elpa/web-mode-20150709.1434/" (21919 23713 0 0) "web-mode.elc" "web-mode.el" "web-mode-pkg.el" "web-mode-autoloads.el" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/" (21915 54017 0 0) "workers/" "views/" "observers/" "models/" "mailers/" "helpers/" "drops/" "controllers/" ".DS_Store" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/views/" (21915 54018 0 0) "widgets/" "wf/" "user_sessions/" "user_notifier/" "uploaded_images/" "ui/" "topics/" "ticket_fields/" "support/" "subscriptions/" "subscription_notifier/" "subscription_admin/" "spam_digest_mailer/" "solution/" "social_errors_mailer/" "social/" "sla_notifier/" "shared/" "security_email_notification/" "sections/" "search/" "reports/" "public/" "profiles/" "posts/" "portal/" "password_resets/" "notification/" "monitorships/" "mailer/" "layouts/" "javascripts/" "integrations/" "http_request_proxy/" "home/" "helpdesk/" "groups/" "google_signup/" "freshfone_notifier/" "freshfone/" "freshdesk_errors_mailer/" "forums/" "forum_shared/" "forum_errors_mailer/" "forum_categories/" "errors/" "email_config_notifier/" "email/" "discussions/" "data_export_mailer/" "customers_import/" "contacts/" "contact_shared/" "contact_merge/" "companies/" "chats/" "authenticate_quickbooks.html.erb~" "anonymous/" "agents/" "admin/" "activations/" "accounts/" "../" "./")
+
+ ("/etc/apache2/" (21916 49436 0 0) "users/" "other/" "original/" "mime.types" "magic" "httpd.conf~previous" "httpd.conf~" "httpd.conf.pre-update" "httpd.conf.bak" "httpd.conf" "extra/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/public/src/settings/" (21915 54022 0 0) "settings.scss" "_freshdesk-variable.scss" "_default.scss" "../" "./")
+
+ ("/xampp/htdocs/whmcs/" (21905 14183 0 0) "whois.php" "viewticket.php" "viewquote.php" "viewinvoice.php" "viewemail.php" "upgrade.php" "unsubscribe.php" "templates_c/" "templates/" "supporttickets.php" "submitticket.php" "status/" "serverstatus.php" "register.php" "pwreset.php" "pipe/" "networkissuesrss.php" "networkissues.php" "modules/" "logout.php" "login.php" "link.php" "lang/" "knowledgebase.php" "init.php" "index.php" "includes/" "images/" "htaccess.txt" "freshdesk_widget.php~" "freshdesk_widget.php" "feeds/" "downloads.php" "downloads/" "domainchecker.php" "dologin.php" "dl.php" "dbconnect.php" "crons/" "creditcard.php" "contact.php" "configuressl.php" "configuration.php~" "configuration.php.new" "configuration.php" "clientarea.php" "cart.php" "banned.php" "attachments/" "announcementsrss.php" "announcements.php" "affiliates.php" "aff.php" "admin/" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/views/integrations/applications/dynamics_crm/" (21915 54019 0 0) "dynamics_settings.html.erb" "dynamics_fields.html.erb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/integrations/dynamics_crm/" (21915 54021 0 0) "crm_util.rb" "api_util.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/remote-integrations/wordpress/" (21899 39490 0 0) "readme.txt" "js/" "images/" "freshdesk-plugin-api.php" "freshdesk-ext.php" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/workers/community/" (21915 54021 0 0) "report_post.rb" "merge_topics.rb" "empty_moderation_trash.rb" "dispatch_spam_digest.rb" "delete_topic_spam.rb" "delete_source_topic_monitorships.rb" "check_for_spam.rb" "bulk_spam.rb" "ban_user.rb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/lib/mailbox/" (21915 54021 0 0) "mailer_helper_methods.rb" "helper_methods.rb" "../" "./")
+
+ ("/Users/user/.ssh/" (21903 41517 0 0) "known_hosts" "id_rsa_personal.pub" "id_rsa_personal" "id_rsa.pub" "id_rsa" "config~" "config" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/app/views/layouts/shared/" (21915 40968 0 0) "integrations/" "freshfone/" "cti/" "chat/" "_ticket_search.html.erb" "_scripts.html.erb" "_html.html.erb" "_header.html.erb" "_head.html.erb" "_freshfone.html.erb" "_footer.html.erb" "../" "./")
+
+ ("/Users/user/Freshdesk/helpkit/public/javascripts/integrations/" (21905 13112 0 0) "zohocrm.js" "workflow_max.js" "whmcsjs.js" "surveymonkey.js" "sugarcrm.js" "shopify.js" "seoshop.js" "sample_highrise.js" "salesforce.js" "quickbooks.js" "pivotal_tracker.js" "nimble.js" "mailchimp.js" "logmein.js" "infusionsoft.js~" "icontact.js" "highrise.js" "harvest.js" "google_calendar.js" "github.js~" "github.js" "freshbooks.js" "dynamicscrm.js" "construct_rule.js" "constantcontact.js" "campaignmonitor.js" "boxChooser.js" "box.js" "batchbook.js" "atlassian-jira.js" "#harvest.js#" "#freshbooks.js#" "../" "./")
 
  ("/Users/user/development/" (21903 40298 0 0) "personal/" "node-js-sample/" "../" "./")
 
@@ -155,51 +314,11 @@
 
  ("/Users/user/development/personal/.git/" (21903 40992 0 0) "refs/" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "COMMIT_EDITMSG" "branches/" "../" "./")
 
- ("/Users/user/Freshdesk/helpkit/app/controllers/integrations/" (21898 27288 0 0) "widgets_controller.rb" "user_credentials_controller.rb" "slack_controller.rb" "remote_configurations_controller.rb" "quickbooks_controller.rb" "pivotal_tracker_controller.rb" "oauth_util_controller.rb" "logmein_controller.rb" "jira_issue_controller.rb" "integrated_resources_controller.rb" "installed_applications_controller.rb" "google_accounts_controller.rb" "gmail_gadgets_controller.rb" "github_issue_controller.rb~" "github_controller.rb~" "github_controller.rb" "dynamics_crm_controller.rb" "cti/" "box_controller.rb" "applications_controller.rb" ".#oauth_util_controller.rb" "#pivotal_tracker_controller.rb#" "#oauth_util_controller.rb#" "#logmein_controller.rb#" "#jira_issue_controller.rb#" "#integrated_resources_controller.rb#" "#applications_controller.rb#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/integrations/github_api/" (21897 9356 0 0) "github_utils.rb~" "github_utils.rb" "github_repositories.rb~" "github_repositories.rb" "github_organizations.rb~" "github_organizations.rb" "github_issues.rb~" "github_issues.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/integrations/" (21897 6860 0 0) "widget_core.rb" "util.rb" "time_sheets_sync.rb" "survey_monkey.rb" "slack/" "salesforce_util.rb" "remote_configurations/" "quickbooks/" "object_mapper.rb" "oauth_helper.rb" "mapper/" "jira_util.rb" "jira/" "integration_helper.rb" "google_contacts_util.rb" "google_contacts_importer.rb" "google_calendar_email_finder.rb" "github_api.rb~" "github_api.rb" "github_api/" "fd_text_filter.rb" "dynamics_crm/" "constants.rb" "batchbook_version_detector.rb" "apps_util.rb" "#oauth_helper.rb#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/javascripts/integrations/" (21897 20114 0 0) "zohocrm.js" "workflow_max.js" "whmcsjs.js" "surveymonkey.js" "sugarcrm.js" "shopify.js" "seoshop.js" "sample_highrise.js" "salesforce.js" "quickbooks.js" "pivotal_tracker.js" "nimble.js" "mailchimp.js" "logmein.js" "infusionsoft.js~" "icontact.js" "highrise.js" "harvest.js" "google_calendar.js" "github.js~" "github.js" "freshbooks.js" "dynamicscrm.js" "construct_rule.js" "constantcontact.js" "campaignmonitor.js" "boxChooser.js" "box.js" "batchbook.js" "atlassian-jira.js" "#harvest.js#" "#freshbooks.js#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/config/locales/" (21895 44540 0 0) "zh-CN.yml" "vi.yml" "uk.yml" "tr.yml" "sv-SE.yml" "sl.yml" "sk.yml" "ru-RU.yml" "pt-PT.yml" "pt-BR.yml" "pl.yml" "nl.yml" "nb-NO.yml" "ko.yml" "ja-JP.yml" "it.yml" "id.yml" "hu.yml" "fr.yml" "fi.yml" "et.yml" "es.yml" "es-LA.yml" "en.yml" "de.yml" "da.yml" "cs.yml" "ca.yml" "ar.yml" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/config/" (21897 8999 0 0) "widget_data.yml" "whitelisted_link_domains.yml" "wf/" "virtual_agent.yml" "va_handlers.yml" "twitter.yml" "tour_my_app.yml" "tiny_mce.yml" "text_datastore.yml" "stopwords-en.txt" "statsd.yml" "sqs.yml" "sphinx_development.yml" "sns.yml" "sidekiq_client.yml" "sidekiq.yml" "s3_static_files.yml" "s3.yml" "routes.rb.rails2" "routes.rb" "riak_buckets.yml" "riak.yml" "redshift.yml" "redis_routes.yml" "redis_mobile.yml" "redis_display_id.yml" "redis_development.yml" "redis.yml" "rate_limit.yml" "rabbitmq.yml" "privileges.yml" "privileges.rb" "preinitializer.rb" "pod_info.yml" "paypal.yml" "pager_duty.yml" "oauth_config.yml" "node_js.yml" "newrelic.yml" "mobile_config.yml" "metric_events.yml" "mailgun.yml" "mailbox.yml" "locales/" "klout.yml" "integrations_config.yml" "initializers/" "helpdesk_initializers.yml" "helpdesk.yml" "google_api.yml" "google-apps/" "gnip.yml" "gateway.yml" "freshfone.yml" "freshfone/" "fontcustom.yml.rails2" "fontcustom.yml" "fdadmin_api_config.yml" "facebook.yml" "environments/" "environment.rb.rails2" "environment.rb" "email.yml" "elasticsearch_development.yml" "elasticsearch.yml" "dynamo_db.yml" "database.yml.rails2" "database.yml" "data/" "dalli.yml" "config.yml" "compass.rb.rails2" "compass.rb" "chrome_extension.yml" "chat.yml" "cert/" "braintree.yml" "boot.rb" "assets.yml" "asset_sync.yml" "application.rb" "app_metrics.yml" "app_config.yml" "akismet.yml" "admin_roles.yml" "addons.yml" "activity_ids.yml" ".#privileges.yml" "#privileges.yml#" "#database.yml#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/views/integrations/applications/" (21897 19791 0 0) "test.html.erb~" "show.html.erb" "salesforce_fields.html.erb" "remote_login.html.erb" "quickbooks_login.html.erb~" "quickbooks_login.html.erb" "new.html.erb" "index.html.erb" "github_settings.html.erb~" "github_settings.html.erb" "edit.html.erb" "dynamics_crm/" "_slack_setting.html.erb" "_screenr_settings.html.erb" "_pivotal_tracker_form.html.erb" "_jira_sync_settings.html.erb" "_helpnote.html.erb" "_google_sync_status.html.erb" "_google_analytics.html.erb" "_google_accounts.html.erb" "_github_issue.html.erb~" "_github_form.html.erb~" "_github_form.html.erb" "_github_enterprise_form.html.erb~" "_dropbox.html.erb" "_custom_application_form.html.erb" "_box.html.erb" "_application_form.html.erb" "#show.html.erb#" "#remote_login.html.erb#" "#_jira_sync_settings.html.erb#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/controllers/" (21896 6584 0 0) "widgets/" "wf/" "users_controller.rb" "user_sessions_controller.rb" "topics_controller.rb" "tickets_uploaded_images_controller.rb" "ticket_fields_controller.rb" "theme_controller.rb" "theme/" "support_controller.rb" "support/" "subscriptions_controller.rb" "subscription_admin/" "sso_controller.rb" "solutions_uploaded_images_controller.rb" "solution/" "social/" "segment/" "search/" "reports_controller.rb" "reports/" "rabbit_mq_controller.rb" "public/" "profiles_controller.rb" "posts_controller.rb" "password_resets_controller.rb" "partner_admin/" "notification/" "monitorships_controller.rb" "moderators_controller.rb" "mobile/" "mobihelp_controller.rb" "mobihelp/" "mailgun_controller.rb" "javascripts_controller.rb" "integrations/" "http_request_proxy_controller.rb" "home_controller.rb" "helpdesk/" "health_check_controller.rb" "groups_controller.rb" "google_signup_controller.rb" "google_login_controller.rb" "freshfone_controller.rb" "freshfone_base_controller.rb" "freshfone/" "forums_uploaded_images_controller.rb" "forums_controller.rb" "forum_categories_controller.rb" "fdadmin/" "exceptions_controller.rb" "email_controller.rb" "domain_search_controller.rb" "discussions_controller.rb" "discussions/" "customers_import_controller.rb" "customers_controller.rb" "custom_fields_controller.rb" "contacts_controller.rb" "contact_merge_controller.rb" "companies_controller.rb" "chats_controller.rb" "billing/" "authorizations_controller.rb" "application_controller.rb.rails2" "application_controller.rb" "api_webhooks_controller.rb" "anonymous/" "agents_controller.rb" "admin/" "activations_controller.rb" "accounts_controller.rb" "account_configurations_controller.rb" ".DS_Store" "#application_controller.rb#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/javascripts/" (21897 2182 0 0) "widgetinit.js" "utils.js" "util-dates.js" "timesheet.js" "ticket_list.js" "themes/" "syntaxhighlighter/" "subscription/" "strftime-min.js" "sound/" "social/" "security.js" "reversePaging.js" "report/" "redactor/" "prototype-1.6.js" "profile_avatar.js" "portal/" "plugins/" "placeholder-events.js" "pattern/" "observer_events.js" "navsearch.js" "moment/" "modules/" "modernizr-2.5.3-respond-1.1.0.min.js" "mobihelp.js" "mColorPicker.min.js" "lookup.js" "livechat/" "lib/" "lang/" "labs/" "jquery_ujs.js" "jquery.pjax.js" "jquery.pageslide.js" "jquery.keypad.js" "jquery-1.8.3.min.js" "jquery-1.7.2.js" "jquery-1.7.1.min.js" "integrations/" "html2canvas.js" "highcharts.src.js" "highcharts.js" "highcharts-more.js" "highcharts-2.1.9.js" "helpdesk/" "hackz.js" "globalinit.js" "ghost-mod.js" "getting_started.js" "freshwidget.js" "freshfone.js" "freshfone/" "freshchat/" "frameworks/" "fjax.js" "fjax/" "feedback_widget_form.js" "fast_autocompleter.js" "factory_ui.js" "excanvas.js" "effects.js" "dyn_menu.js" "dragdrop.js" "custom_widget.js" "custom_validators.js" "cti/" "controls.js" "condition-filter.js" "client_logger.js" "chat/" "cdn/" "capsule_crm.js" "calendar_date_select/" "bootstrap.js" "bootstrap-old.js" "bootstrap/" "base64.js" "autosuggest.js" "application.js" "app/" "agent_availability_status/" "adv_reports/" "admin/" "adapters/" "#custom_widget.js#" "../" "./")
-
- ("/Users/user/.emacs.d/" (21895 41364 0 0) "themes/" "saveplace.elc" "saveplace.el" "saveplace" "rake.cache" "projectile.cache" "projectile-bookmarks.eld" "init.el~" "init.elc" "init.el" "ido.last~" "ido.last" "emacs-color-theme-solarized-master/" "elpa/" "color-theme-solarized.elc" "color-theme-solarized.el" "auto-save-list/" "ac-comphist.dat" ".DS_Store" "%backup%~" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/workers/community/" (21891 59060 0 0) "report_post.rb" "merge_topics.rb" "empty_moderation_trash.rb" "dispatch_spam_digest.rb" "delete_topic_spam.rb" "delete_source_topic_monitorships.rb" "check_for_spam.rb" "bulk_spam.rb" "ban_user.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/mailbox/" (21833 58290 0 0) "mailer_helper_methods.rb" "helper_methods.rb" "../" "./")
-
  ("/Users/user/Freshdesk/helpkit/lib/integrations/mapper/" (21815 18878 0 0) "hash_handler.rb" "generic_mapper.rb" "db_handler.rb" "../" "./")
-
- ("/etc/apache2/" (21890 32209 0 0) "users/" "other/" "original/" "mime.types" "magic" "httpd.conf~previous" "httpd.conf~" "httpd.conf.bak" "httpd.conf" "extra/" "../" "./")
-
- ("/etc/apache2/extra/" (21890 32997 0 0) "proxy-html.conf" "httpd-vhosts.conf~" "httpd-vhosts.conf" "httpd-userdir.conf" "httpd-ssl.conf~orig" "httpd-ssl.conf" "httpd-multilang-errordoc.conf" "httpd-mpm.conf" "httpd-manual.conf" "httpd-languages.conf" "httpd-info.conf" "httpd-default.conf" "httpd-dav.conf" "httpd-autoindex.conf" "../" "./")
 
  ("/Users/user/.emacs.d/elpa/php-mode-1.15.3/" (21841 45964 0 0) "php-mode.elc" "php-mode.el" "php-mode-pkg.el" "php-mode-autoloads.el" "../" "./")
 
- ("/Users/user/Freshdesk/helpkit/app/models/integrations/" (21891 57600 0 0) "widget.rb" "user_credential.rb" "native_widget.rb" "jira_webhook.rb" "jira_issue.rb" "integrated_resource.rb" "installed_application.rb" "google_group.rb" "google_account.rb" "github_issue.rb~" "github.rb" "application.rb" "app_business_rule.rb" "#jira_issue.rb#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/" (21887 59822 0 0) "workers/" "va/" "utils/" "utilities.rb" "users/" "user_helper_methods.rb" "uploaded_images_controller_methods.rb" "two_factor_authentication.rb" "twitter_wrapper.rb" "twilio_master.rb" "trigger_sql.rb" "tour_my_app.rb" "token_generator.rb" "timezone/" "time_zone.rb" "tickets_filter.rb" "ticket_constants.rb" "third_crm.rb" "tasks/" "sync_type.rb" "survey_helper.rb" "support_ticket_controller_methods.rb" "support_note_controller_methods.rb" "support_discussions_controller_methods.rb" "subscription_system.rb" "subscription/" "sso_util.rb" "spam_watcher/" "spam_post_methods.rb" "spam_migration_dynamo.rb" "spam_counter_next.rb" "spam_counter_methods.rb" "spam_counter.rb" "spam_attachment_methods.rb" "spam_analysis.rb" "solution/" "social/" "smtp_tls.rb" "shortcut.rb" "security_notification.rb" "search_util.rb" "search/" "sanitize/" "saas/" "ruby_bridge.rb" "rtl_helper.rb" "restrict_controller_action.rb" "resque_web.rb" "resque/" "reports/" "remote_file.rb" "redis/" "reads_to_slave.rb" "rabbit_mq/" "portal/" "populate_global_blacklist_ips_table.rb" "populate_account_seed.rb" "plugins/" "perform_table_partition.rb" "password.rb" "parser_util.rb" "omniauth/" "monitoring/" "moderation_util.rb" "model_controller_methods.rb" "mobile/" "mobihelp/" "mixpanel_wrapper.rb" "middleware/" "meta_helper_methods.rb" "memcache_keys.rb" "marketo/" "mailer_deliver_alias.rb" "mailbox_validator.rb" "mailbox_constants.rb" "mailbox/" "mail_fixture.rb" "livechat/" "liquid/" "integrations/" "import_csv_util.rb" "import/" "http_proxy_methods.rb" "helpdesk_system.rb" "helpdesk_controller_methods.rb" "helpdesk_access_methods.rb" "helpdesk/" "hashit.rb" "guid.rb" "google_oauth.rb" "google_client.rb" "gamification/" "freshfone/" "freshdesk_core/" "forum_unpublished_next.rb" "forum_unpublished.rb" "forum_spam_next.rb" "forum_spam_methods.rb" "forum_spam.rb" "forum_helper_methods.rb" "form_builders/" "fdadmin/" "faye/" "facebook_routing.rb" "export_csv_util.rb" "export/" "error_handle.rb" "email_commands.rb" "dynamo.rb" "dynamo/" "default_pagination_renderer.rb" "daemon.rb" "customer_deprecation_methods.rb" "custom_logger.rb" "crm/" "conversations/" "controller_logger.rb" "confirm_delete_helper.rb" "companies_helper_methods.rb" "community_helper.rb" "community_constants.rb" "community/" "cloud_files_helper.rb" "clock.rb" "capsulecrm.rb" "capsulecrm/" "cache/" "business_rules_observer.rb" "business_calendar_ext/" "bootstrap_pagination_renderer.rb" "billing/" "aws_wrapper/" "automation_controller_methods.rb" "auto_link_mail_interceptor.rb" "authentication_system.rb" "attachment_helper.rb" "assets/" "asset_loader.rb" "article_body_migration.rb" "app_metrics.rb" "api_webhooks/" "api_helper_methods.rb" "agents/" "admin_controller_methods.rb" "account_metric_helper_methods.rb" "account_constants.rb" "account_additional_settings/" "accessible_controller_methods.rb" "../" "./")
-
- ("/Users/user/Documents/" (21890 26881 0 0) "repos1.txt" "repos.txt~" "repos.txt" "GitHubIntegration.txt~" "GitHubIntegration.txt" "FileZilla_3.11.0.2_macosx-x86.app.tar.bz2" "FileZilla_3.10.3_macosx-x86.app.tar.bz2" ".localized" ".DS_Store" "#repos1.txt#" "#GitHubIntegration.txt#" "../" "./")
-
- ("/Users/user/Freshdesk/remote-integrations/wordpress/" (21890 35367 0 0) "readme.txt" "js/" "images/" "freshdesk-plugin-api.php" "freshdesk-ext.php" "css/" ".DS_Store" "../" "./")
-
  ("/Users/user/Freshdesk/helpkit/lib/export/" (21833 58289 0 0) "util.rb" "customer.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/workers/" (21880 17597 0 0) "webhook.rb" "throttler.rb" "supervisor.rb" "subscriber.rb" "sla.rb" "restore_spam_tickets.rb" "populate_ticket_form_fields_worker.rb" "populate_stats_data_worker.rb" "observer.rb" "merge_tickets.rb" "merge_contacts.rb" "livechat.rb" "integrations/" "import/" "helpkit/" "fb_split_tickets.rb" "export_contact.rb" "export_company.rb" "dev_notification.rb" "detect_user_language.rb" "delete_archived_data.rb" "community/" "clear_trash.rb" "clear_spam.rb" "clear_account_data.rb" "bulk_reply_tickets.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/workers/integrations/" (21889 31257 0 0) "jira_account_updates.rb" "github_issue.rb~" "github_issue.rb" "../" "./")
 
  ("/Users/user/Freshdesk/helpkit/lib/integrations/github/" (21889 33767 0 0) "api.rb~" "api.rb" "../" "./")
 
@@ -207,17 +326,9 @@
 
  ("/Users/user/FreshDesk/helpkit/config/locales/" (21882 44327 0 0) "zh-CN.yml" "vi.yml" "uk.yml" "tr.yml" "sv-SE.yml" "sl.yml" "sk.yml" "ru-RU.yml" "pt-PT.yml" "pt-BR.yml" "pl.yml" "nl.yml" "nb-NO.yml" "ko.yml" "ja-JP.yml" "it.yml" "id.yml" "hu.yml" "fr.yml" "fi.yml" "et.yml" "es.yml" "es-LA.yml" "en.yml" "de.yml" "da.yml" "cs.yml" "ca.yml" "ar.yml" "../" "./")
 
- ("/Users/user/Freshdesk/helpkit/app/models/" (21881 50943 0 0) "whitelisted_ip.rb" "whitelist_user.rb" "wf/" "va_rule.rb" "user_session.rb" "user_email.rb" "user.rb" "user/" "topic.rb" "topic/" "ticket_topic.rb" "ticket_form_field.rb" "survey_result.rb" "survey_remark.rb" "survey_handle.rb" "survey.rb" "support_score.rb" "subscription_plan.rb" "subscription_payment.rb" "subscription_event.rb" "subscription_announcement.rb" "subscription_affiliate.rb" "subscription_address.rb" "subscription.rb" "subscription/" "sqs_post.rb" "spam_digest_mailer.rb" "solution/" "social/" "smtp_mailbox.rb" "signup.rb" "service_api_key.rb" "scoreboard_rating.rb" "scoreboard_level.rb" "scenario_automation.rb" "role.rb" "quest.rb" "product.rb" "post.rb" "portal_solution_category.rb" "portal_forum_category.rb" "portal.rb" "portal/" "password_reset.rb" "monitorship.rb" "moderatorship.rb" "mobile_app_version.rb" "mobihelp/" "integrations/" "imap_mailbox.rb" "http_request_proxy.rb" "helpdesk/" "group.rb" "google_domain.rb" "google_contact.rb" "global_blacklisted_ip.rb" "freshfone/" "forum_moderator.rb" "forum_category.rb" "forum.rb" "form_ticket_field_value.rb" "flexifield_picklist_val.rb" "flexifield_def_entry.rb" "flexifield_def.rb" "facebook_page_mapping.rb" "es_enabled_account.rb" "email_notification_agent.rb" "email_notification.rb" "email_config.rb" "dynamic_notification_template.rb" "deleted_customers.rb" "day_pass_usage.rb" "day_pass_purchase.rb" "day_pass_config.rb" "data_export.rb" "customer_forum.rb" "customer.rb" "conversion_metric.rb" "contact_form.rb" "contact_field_data.rb" "contact_field_choice.rb" "contact_field.rb" "company_form.rb" "company_field_data.rb" "company_field_choice.rb" "company_field.rb" "company.rb" "chat_widget.rb" "chat_setting.rb" "business_calendar.rb" "authorization.rb" "article_ticket.rb" "agent_group.rb" "agent.rb" "agent/" "affiliate_discount_mapping.rb" "affiliate_discount.rb" "admin_user.rb" "admin_session.rb" "admin/" "address.rb" "achieved_quest.rb" "account_configuration.rb" "account_additional_settings.rb" "account.rb" "account/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/spec/support/" (21882 44328 0 0) "wf_filter_helper.rb" "wf/" "va/" "user_helper.rb" "usage_triggers_spec_helper.rb" "twitter_helper.rb" "ticket_helper.rb" "survey_helper.rb" "subscription_helper.rb" "spork_patch.rb" "solutions_helper.rb" "social_helper.rb" "sla_policies_helper.rb" "s3_helper.rb" "roles_helper.rb" "quest_helper.rb" "products_helper.rb" "perf_helper.rb" "note_helper.rb" "mobile_helper.rb" "mobihelp_helper.rb" "mailgun_helper.rb" "jira_helper.rb" "integrations_helper.rb" "group_helper.rb" "gnip_helper.rb" "freshfone_transfer_spec_helper.rb" "freshfone_spec_helper.rb" "freshfone_queue_helper.rb" "freshfone_call_spec_helper.rb" "forum_helper.rb" "forum_dynamo_helper.rb" "facebook_helper.rb" "email_helper.rb" "dynamo_helper.rb" "dynamic_template_helper.rb" "custom_matcher.rb" "controller_helper.rb" "controller_data_fetcher.rb" "contact_fields_helper.rb" "company_helper.rb" "canned_responses_helper.rb" "automations_helper.rb" "applications_helper.rb" "api_helper.rb" "api_auth_helper.rb" "agent_helper.rb" "account_helper.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/views/helpdesk/tickets/show/" (21880 18308 0 0) "reminders/" "agent_collision.jst" "_whats_new.html.erb" "_tweet_form.html.erb" "_todo.html.erb" "_ticket_fields.html.erb" "_ticket_field_elements.html.erb" "_tags.html.erb" "_sticky_status.html.erb" "_sticky.html.erb" "_status.html.erb" "_sidebar.html.erb" "_scriptvars.html.erb" "_scenarios.html.erb" "_response_added_alert.html.erb" "_requester_tickets.html.erb" "_requester.html.erb" "_reply_form.html.erb" "_original_request.html.erb" "_note_form.html.erb" "_note_attachments.html.erb" "_note.html.erb" "_new_conversation.html.erb" "_multifile_template.erb" "_mobihelp_reply_form.html.erb" "_integrations.html.erb" "_info_widget.html.erb" "_info.html.erb" "_forward_form.html.erb" "_facebook_form.html.erb" "_editor_insert_buttons.html.erb" "_due_date.html.erb" "_due_by.html.erb" "_conversations.html.erb" "_collision.html.erb" "_attachment_form.html.erb" "_app_review_form.html.erb" "_app_info_sidebar.html.erb" "_app_info.html.erb" "_app_device_info.html.erb" "_activity.html.erb" "_activities.html.erb" "../" "./")
-
  ("/Users/user/Freshdesk/helpkit/app/views/helpdesk/tickets/" (21880 17597 0 0) "view_ticket.widget.erb" "user_tickets.widget.erb" "unspam.rjs" "show.html.erb" "show.atom.builder" "show/" "print.html.erb" "prevnext.rjs" "no_paginate.rjs" "new.widget.erb" "new.html.erb" "index.html.erb" "index.atom.builder" "full_paginate.rjs" "execute_scenario.rjs" "edit.html.erb" "customview/" "custom_search.html.erb" "create_ticket_status.widget.erb" "containers/" "components/" "component.rjs" "activities.html.erb" "_update_multiple.html.erb" "_ticket_form.html.erb" "_spam.html.erb" "_search.html.erb" "_save_and_close_notice.html.erb" "_reply_multiple.html.erb" "_note.html.erb" "_get_ticket_agents.html.erb" "_freshdesk_socket_autorefresh.html.erb" "_freshdesk_socket.html.erb" "_freshdesk_node.html.erb" "_filters.html.erb" "_execute_scenario_notice.html.erb" "_due_by.html.erb" "_custom_search.rjs" "_custom_form_partial.html.erb" "_configure_export.html.erb" "_collision_show.erb" "_collision_index.erb" "_close_notice.html.erb" "_bulk_actions_notice.html.erb" "_auto_refresh.html.erb" "_assign_agent.html.erb" "_activities.html.erb" "../" "./")
 
  ("/Users/user/Freshdesk/helpkit/app/views/helpdesk/integrations/" (21881 40658 0 0) "github_issue.html.erb~" "_remote_support.html.erb" "_jira_issue.html.erb" "_github_issue.html.erb~" "_github_issue.html.erb" "_github_enterprise_form.html.erb~" "_email_marketing_container.html.erb" "_crm_widget.html.erb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/" (21833 58287 0 0) "workers/" "views/" "observers/" "models/" "mailers/" "helpers/" "drops/" "controllers/" "../" "./")
 
  ("/Users/user/Freshdesk/helpkit/app/views/integrations/" (21815 21158 0 0) "widgets/" "surveymonkey/" "installed_applications/" "google_accounts/" "gmail_gadgets/" "cti/" "box/" "applications/" "../" "./")
 
@@ -228,24 +339,6 @@
  ("/Users/user/FreshDesk/helpkit/db/" (21880 18308 0 0) "seeds.rb" "schema.rb" "old_migrations/" "migrate/" "global_phone.json" "fixtures/" "../" "./")
 
  ("/Users/user/FreshDesk/helpkit/" (21880 18308 0 0) "vendor/" "tmp/" "test/" "spec/" "script/" "README.rdoc" "README" "Rakefile" "public/" "omnitmp/" "mobile/" "log/" "LICENSE" "lib/" "integrations/" "Gemfile.lock" "Gemfile" "dump.rdb" "doc/" "deploy/" "db/" "config.ru" "config/" "app/" ".sass-cache/" ".rspec" ".projectile~" ".projectile" ".gitignore.rails2" ".gitignore" ".git/" ".gems" ".fontcustom-manifest.json" ".DS_Store" "#tmux-session#" "#Gemfile#" "#config.ru#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/db/" (21880 18308 0 0) "seeds.rb" "schema.rb" "old_migrations/" "migrate/" "global_phone.json" "fixtures/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/spec/controllers/integrations/" (21878 62680 0 0) "user_credentials_controller_spec.rb" "slack_controller_spec.rb" "remote_configurations_controller_spec.rb" "quickbooks_controller_spec.rb" "pivotal_tracker_controller_spec.rb" "oauth_util_controller_spec.rb" "logmein_controller_spec.rb" "jira_issue_controller_spec.rb" "integrated_resources_controller_spec.rb" "installed_applications_controller_spec.rb" "http_request_proxy_controller_spec.rb" "google_accounts_controller_spec.rb" "gmail_gadgets_controller_spec.rb" "dynamics_crm_controller_spec.rb" "cti/" "applications_controller_spec.rb" "../" "./")
-
- ("/Users/user/.emacs.d/elpa/" (21878 62247 0 0) "yaml-mode-readme.txt" "yaml-mode-20141125.37/" "web-mode-20150321.1140/" "scss-mode-readme.txt" "scss-mode-20150107.1400/" "scala-mode2-0.22/" "s-20140910.334/" "rvm-readme.txt" "rvm-20150105.110/" "ruby-guard-readme.txt" "rspec-mode-readme.txt" "rspec-mode-20150210.930/" "robe-readme.txt" "robe-20150222.1644/" "rake-20150124.728/" "projectile-rails-readme.txt" "projectile-rails-20150222.1315/" "projectile-20150316.1130/" "popup-20150315.612/" "pkg-info-20140610.630/" "php-mode-readme.txt" "php-mode-1.15.3/" "phi-search-readme.txt" "phi-search-20150419.2332/" "moe-theme-readme.txt" "makey-20131231.630/" "inflections-20121016.157/" "inf-ruby-20150222.1742/" "imenu-list-readme.txt" "imenu-list-20150301.640/" "imenu+-readme.txt" "go-mode-1.2.0/" "flymake-ruby-readme.txt" "flymake-ruby-20121104.1059/" "flymake-easy-20140818.55/" "flx-ido-20140821.2033/" "flx-20140921.739/" "f-20150217.328/" "epl-20140823.609/" "enh-ruby-mode-readme.txt" "enh-ruby-mode-20150312.1458/" "emmet-mode-readme.txt" "emmet-mode-20141222.1925/" "discover-20140103.1339/" "dash-20150311.2355/" "color-theme-20080305.34/" "auto-complete-readme.txt" "auto-complete-20150322.813/" "archives/" "ac-emmet-readme.txt" "ac-emmet-20131015.858/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/integrations/quickbooks/" (21878 62679 0 0) "constant.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/spec/controllers/" (21880 17597 0 0) "widgets/" "wf_filters_controller_spec.rb" "users_controller_spec.rb" "topics_controller_spec.rb" "ticket_fields_controller_spec.rb" "support/" "subscriptions_controller_spec.rb" "subscription_admin/" "sso_controller_spec.rb" "solution_uploaded_images_controller_spec.rb" "social/" "slow_tests/" "reports/" "rabbit_mq_controller_spec.rb" "profiles_controller_spec.rb" "password_resets_controller_spec.rb" "partner_admin/" "notification/" "negative/" "multiple_user_email_controller_spec.rb" "monitorships_controller_spec.rb" "mobile/" "mobihelp/" "mailgun_controller_spec.rb" "integrations/" "home_controller_spec.rb" "helpdesk/" "groups_controller_spec.rb" "google_signup_controller_spec.rb" "google_login_controller_spec.rb" "freshfone/" "forums_controller_spec.rb" "forum_categories_controller_spec.rb" "fdadmin/" "email_controller_spec.rb" "domain_search_controller_spec.rb" "discussions_controller_spec.rb" "discussions/" "customers_controller_spec.rb" "contacts_import_controller_spec.rb" "contacts_controller_spec.rb" "contact_merge_controller_spec.rb" "companies_import_controller_spec.rb" "companies_controller_spec.rb" "chats_controller_spec.rb" "billing/" "authorizations_controller_spec.rb" "api_webhooks_controller_spec.rb" "api/" "agents_controller_spec.rb" "admin/" "activations_controller_spec.rb" "accounts_controller_spec.rb" "account_configurations_controller_spec.rb" ".DS_Store" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/integrations/jira/" (21878 62679 0 0) "webhook_installer.rb" "api.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/src/app/" (21878 63699 0 0) "lib/" "ie.scss" "application.scss" "app-common.scss" "app-bootstrap.scss" "_shortcuts-chart.scss" "_rtl-styles.scss" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/config/environments/" (21880 18308 0 0) "test.rb" "staging.rb.rails2" "staging.rb" "slave.rb" "production.rb.rails2" "production.rb" "development.rb.rails2" "development.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/" (21880 18308 0 0) "vendor/" "tmp/" "test/" "spec/" "script/" "README.rdoc" "README" "Rakefile" "public/" "omnitmp/" "mobile/" "log/" "LICENSE" "lib/" "integrations/" "Gemfile.lock" "Gemfile" "dump.rdb" "doc/" "deploy/" "db/" "config.ru" "config/" "app/" ".sass-cache/" ".rspec" ".projectile~" ".projectile" ".gitignore.rails2" ".gitignore" ".git/" ".gems" ".fontcustom-manifest.json" ".DS_Store" "#tmux-session#" "#Gemfile#" "#config.ru#" "../" "./")
 
  ("/Users/user/Freshdesk/remote-integrations/" (21873 35917 0 0) "wordpress/" "SugarCRM/" "README.md" "Freshdesk_Salesforce/" ".gitignore" ".git/" ".DS_Store" "../" "./")
 
@@ -259,91 +352,7 @@
 
  ("/Users/user/Freshdesk/wordpress/" (21853 44388 0 0) "trunk/" "tags/" "branches/" "assets/" ".svn/" ".DS_Store" "../" "./")
 
- ("/Users/user/Freshdesk/helpkit/lib/integrations/dynamics_crm/" (21851 6587 0 0) "crm_util.rb" "api_util.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/helpers/" (21853 56578 0 0) "widgets/" "users_helper.rb" "user_emails_helper.rb" "uploaded_images_helper.rb" "topic_merge_helper.rb" "ticket_fields_helper.rb" "support_helper.rb" "support/" "subscriptions_helper.rb" "subscription_admin/" "solution/" "social/" "search/" "reports_helper.rb" "reports/" "profiles_helper.rb" "integrations/" "home_helper.rb" "helpdesk/" "groups_helper.rb" "google_signup_helper.rb" "google_login_helper.rb" "freshfone/" "email_helper.rb" "email_commands_settings_helper.rb" "discussions_helper.rb" "contacts_helper.rb" "contacts_companies_helper.rb" "companies_helper.rb" "chat_helper.rb" "autocomplete_helper.rb" "application_helper.rb.rails2" "application_helper.rb" "app_form_builder_helper.rb" "anonymous/" "agents_helper.rb" "admin/" "activations_helper.rb" "accounts_helper.rb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/views/integrations/applications/dynamics_crm/" (21851 6587 0 0) "dynamics_settings.html.erb" "dynamics_fields.html.erb" "../" "./")
-
  ("/Users/user/Freshdesk/hipchat/app/" (21815 38336 0 0) "views/" "models/" "helpers/" "controllers/" "../" "./")
-
- ("/Users/user/Freshdesk/" (21853 43697 0 0) "wordpress/" "remote-integrations/" "hipchat_heroku/" "hipchat/" "helpkit/" ".DS_Store" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/controllers/admin/" (21851 6587 0 0) "zen_import_controller.rb" "widget_config_controller.rb" "va_rules_controller.rb" "templates_controller.rb" "surveys_controller.rb" "supervisor_rules_controller.rb" "social/" "security_controller.rb" "roles_controller.rb" "quests_controller.rb" "products_controller.rb" "portal_controller.rb" "pages_controller.rb" "observer_rules_controller.rb" "mobihelp/" "home_controller.rb" "getting_started_controller.rb" "gamification_controller.rb" "freshfone_controller.rb" "freshfone/" "email_notifications_controller.rb" "email_configs_controller.rb" "email_commands_settings_controller.rb" "dynamic_notification_templates_controller.rb" "day_passes_controller.rb" "data_export_controller.rb" "contact_fields_controller.rb" "company_fields_controller.rb" "chat_widgets_controller.rb" "business_calendars_controller.rb" "admin_controller.rb" "account_additional_settings_controller.rb" "#security_controller.rb#" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/views/layouts/shared/" (21851 6587 0 0) "integrations/" "freshfone/" "cti/" "chat/" "_ticket_search.html.erb" "_scripts.html.erb" "_html.html.erb" "_header.html.erb" "_head.html.erb" "_freshfone.html.erb" "_footer.html.erb" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/views/helpdesk/time_sheets/" (21851 6587 0 0) "update.rjs" "toggle_timer.rjs" "new.html.erb" "index.html.erb" "edit.html.erb" "destroy.rjs" "create.rjs" "_time_entry.html.erb" "_new.html.erb" "_integration.html.erb" "_form.html.erb" "#update.rjs#" "#create.rjs#" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/integrations/wordpress/" (21853 56589 0 0) "readme.txt" "js/" "images/" "freshdesk-plugin-api.php" "freshdesk-ext.php" "css/" "../" "./")
-
- ("/Users/user/.zprezto/modules/prompt/functions/" (21854 9548 0 0) "prompt_steeef_setup" "prompt_sorin_setup" "prompt_smiley_setup" "prompt_skwp_setup" "prompt_pure_setup" "prompt_powerline_setup" "prompt_peepcode_setup" "prompt_paradox_setup" "prompt_nicoulaj_setup" "prompt_minimal_setup" "prompt_kylewest_setup" "prompt_giddie_setup" "prompt_damoekri_setup" "prompt_cloud_setup" "prompt_agnoster_setup" "../" "./")
-
- ("/Users/user/.zprezto/modules/git/functions/" (21853 58645 0 0) "git-submodule-remove" "git-submodule-move" "git-stash-recover" "git-stash-dropped" "git-stash-clear-interactive" "git-root" "git-info" "git-hub-shorten-url" "git-hub-browse" "git-dir" "git-commit-lost" "git-branch-current" "_git-submodule-remove" "_git-submodule-move" "_git-info" "_git-hub-shorten-url" "_git-hub-browse" "../" "./")
-
- ("/Users/user/.zprezto/modules/git/" (21853 58645 0 0) "README.md" "init.zsh" "functions/" "alias.zsh" "../" "./")
-
- ("/Users/user/.zprezto/modules/prompt/" (21853 58645 0 0) "README.md" "init.zsh" "functions/" "external/" "../" "./")
-
- ("/Users/user/.zprezto/" (21853 58645 0 0) "runcoms/" "README.md" "modules/" "init.zsh" "CONTRIBUTING.md" ".gitmodules" ".gitignore" ".git/" "../" "./")
-
- ("/Users/user/.zprezto/modules/" (21853 58645 0 0) "yum/" "wakeonlan/" "utility/" "tmux/" "terminal/" "syntax-highlighting/" "ssh/" "spectrum/" "screen/" "ruby/" "rsync/" "README.md" "rails/" "python/" "prompt/" "perl/" "pacman/" "osx/" "ocaml/" "node/" "macports/" "homebrew/" "history-substring-search/" "history/" "helper/" "haskell/" "gpg/" "gnu-utility/" "git/" "fasd/" "environment/" "emacs/" "editor/" "dpkg/" "directory/" "completion/" "command-not-found/" "archive/" "../" "./")
-
- ("/Users/user/.zprezto/modules/ruby/functions/" (21853 58645 0 0) "ruby-info" "ruby-app-root" "../" "./")
-
- ("/Users/user/.zprezto/modules/ruby/" (21853 58645 0 0) "README.md" "init.zsh" "functions/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/views/layouts/shared/" (21851 6587 0 0) "integrations/" "freshfone/" "cti/" "chat/" "_ticket_search.html.erb" "_scripts.html.erb" "_html.html.erb" "_header.html.erb" "_head.html.erb" "_freshfone.html.erb" "_footer.html.erb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/app/views/search/" (21833 58288 0 0) "template/" "solutions/" "index.html.erb" "_search_sort_menu_dropdown.html.erb" "_search_sort.rjs" "_result_wrapper.html.erb" "_pagesearch.html.erb" "_navsearch.html.erb" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/controllers/integrations/" (21850 65033 0 0) "widgets_controller.rb" "user_credentials_controller.rb" "slack_controller.rb" "remote_configurations_controller.rb" "pivotal_tracker_controller.rb" "oauth_util_controller.rb" "logmein_controller.rb" "jira_issue_controller.rb" "integrated_resources_controller.rb" "installed_applications_controller.rb" "google_accounts_controller.rb" "gmail_gadgets_controller.rb" "dynamics_crm_controller.rb" "cti/" "box_controller.rb" "applications_controller.rb" "#remote_configurations_controller.rb#" "#pivotal_tracker_controller.rb#" "#logmein_controller.rb#" "#integrated_resources_controller.rb#" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/config/" (21850 65047 0 0) "widget_data.yml" "whitelisted_link_domains.yml" "wf/" "virtual_agent.yml" "va_handlers.yml" "twitter.yml" "tour_my_app.yml" "tiny_mce.yml" "text_datastore.yml" "stopwords-en.txt" "statsd.yml" "sqs.yml" "sphinx_development.yml" "sns.yml" "sidekiq_client.yml" "sidekiq.yml" "s3_static_files.yml" "s3.yml" "routes.rb.rails2" "routes.rb" "riak_buckets.yml" "riak.yml" "redshift.yml" "redis_routes.yml" "redis_mobile.yml" "redis_display_id.yml" "redis_development.yml" "redis.yml" "rate_limit.yml" "rabbitmq.yml" "privileges.yml" "privileges.rb" "preinitializer.rb" "pod_info.yml" "paypal.yml" "pager_duty.yml" "oauth_config.yml" "node_js.yml" "newrelic.yml" "mobile_config.yml" "mailgun.yml" "mailbox.yml" "locales/" "klout.yml" "integrations_config.yml" "initializers/" "helpdesk_initializers.yml" "helpdesk.yml" "google_api.yml" "google-apps/" "gnip.yml" "gateway.yml" "freshfone.yml" "freshfone/" "fontcustom.yml.rails2" "fontcustom.yml" "fdadmin_api_config.yml" "facebook.yml" "environments/" "environment.rb.rails2" "environment.rb" "email.yml" "elasticsearch_development.yml" "elasticsearch.yml" "dynamo_db.yml" "database.yml.rails2" "database.yml" "data/" "dalli.yml" "config.yml" "compass.rb.rails2" "compass.rb" "chrome_extension.yml" "chat.yml" "cert/" "braintree.yml" "boot.rb" "assets.yml" "asset_sync.yml" "application.rb" "app_config.yml" "akismet.yml" "admin_roles.yml" "addons.yml" "activity_ids.yml" "#widget_data.yml#" "#routes.rb#" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/controllers/" (21850 65034 0 0) "widgets/" "wf/" "users_controller.rb" "user_sessions_controller.rb" "topics_controller.rb" "tickets_uploaded_images_controller.rb" "ticket_fields_controller.rb" "theme_controller.rb" "theme/" "support_controller.rb" "support/" "subscriptions_controller.rb" "subscription_admin/" "sso_controller.rb" "solutions_uploaded_images_controller.rb" "solution/" "social/" "segment/" "search/" "reports_controller.rb" "reports/" "rabbit_mq_controller.rb" "public/" "profiles_controller.rb" "posts_controller.rb" "password_resets_controller.rb" "partner_admin/" "notification/" "monitorships_controller.rb" "moderators_controller.rb" "mobile/" "mobihelp_controller.rb" "mobihelp/" "mailgun_controller.rb" "javascripts_controller.rb" "integrations/" "http_request_proxy_controller.rb" "home_controller.rb" "helpdesk/" "health_check_controller.rb" "groups_controller.rb" "google_signup_controller.rb" "google_login_controller.rb" "freshfone_controller.rb" "freshfone_base_controller.rb" "freshfone/" "forums_uploaded_images_controller.rb" "forums_controller.rb" "forum_categories_controller.rb" "fdadmin/" "exceptions_controller.rb" "email_controller.rb" "domain_search_controller.rb" "discussions_controller.rb" "discussions/" "customers_import_controller.rb" "customers_controller.rb" "custom_fields_controller.rb" "contacts_controller.rb" "contact_merge_controller.rb" "companies_controller.rb" "chats_controller.rb" "billing/" "authorizations_controller.rb" "application_controller.rb.rails2" "application_controller.rb" "api_webhooks_controller.rb" "anonymous/" "agents_controller.rb" "admin/" "activations_controller.rb" "accounts_controller.rb" "account_configurations_controller.rb" "#application_controller.rb#" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/models/" (21850 65034 0 0) "whitelisted_ip.rb" "whitelist_user.rb" "wf/" "va_rule.rb" "user_session.rb" "user_email.rb" "user.rb" "user/" "topic.rb" "topic/" "ticket_topic.rb" "ticket_form_field.rb" "survey_result.rb" "survey_remark.rb" "survey_handle.rb" "survey.rb" "support_score.rb" "subscription_plan.rb" "subscription_payment.rb" "subscription_event.rb" "subscription_announcement.rb" "subscription_affiliate.rb" "subscription_address.rb" "subscription.rb" "subscription/" "sqs_post.rb" "spam_digest_mailer.rb" "solution/" "social/" "smtp_mailbox.rb" "signup.rb" "service_api_key.rb" "scoreboard_rating.rb" "scoreboard_level.rb" "scenario_automation.rb" "role.rb" "quest.rb" "product.rb" "post.rb" "portal_solution_category.rb" "portal_forum_category.rb" "portal.rb" "portal/" "password_reset.rb" "monitorship.rb" "moderatorship.rb" "mobile_app_version.rb" "mobihelp/" "integrations/" "imap_mailbox.rb" "http_request_proxy.rb" "helpdesk/" "group.rb" "google_domain.rb" "google_contact.rb" "global_blacklisted_ip.rb" "freshfone/" "forum_moderator.rb" "forum_category.rb" "forum.rb" "form_ticket_field_value.rb" "flexifield_picklist_val.rb" "flexifield_def_entry.rb" "flexifield_def.rb" "facebook_page_mapping.rb" "es_enabled_account.rb" "email_notification_agent.rb" "email_notification.rb" "email_config.rb" "dynamic_notification_template.rb" "deleted_customers.rb" "day_pass_usage.rb" "day_pass_purchase.rb" "day_pass_config.rb" "data_export.rb" "customer_forum.rb" "customer.rb" "conversion_metric.rb" "contact_form.rb" "contact_field_data.rb" "contact_field_choice.rb" "contact_field.rb" "company_form.rb" "company_field_data.rb" "company_field_choice.rb" "company_field.rb" "company.rb" "chat_widget.rb" "chat_setting.rb" "business_calendar.rb" "authorization.rb" "article_ticket.rb" "agent_group.rb" "agent.rb" "agent/" "affiliate_discount_mapping.rb" "affiliate_discount.rb" "admin_user.rb" "admin_session.rb" "admin/" "address.rb" "achieved_quest.rb" "account_configuration.rb" "account_additional_settings.rb" "account.rb" "account/" "../" "./")
-
- ("/Users/user/Freshdesk/hipchat/config/initializers/" (21816 36201 0 0) "session_store.rb" "new_rails_defaults.rb" "mime_types.rb" "inflections.rb" "cookie_verification_secret.rb" "backtrace_silencers.rb" ".#new_rails_defaults.rb" "../" "./")
-
- ("/Users/user/Freshdesk/hipchat/app/controllers/" (21816 36295 0 0) "hipchat_controller.rb" "config_controller.rb" "application_controller.rb" "../" "./")
-
- ("/Users/user/Freshdesk/hipchat/config/" (21816 36295 0 0) "routes.rb" "preinitializer.rb" "oauth_config.yml" "locales/" "initializers/" "freshdesk_config.yml" "environments/" "environment.rb" "database.yml" "boot.rb" "../" "./")
-
- ("/Users/user/htdocs/wordpress/wp-content/plugins/freshdesk-support/" (21849 47839 0 0) "readme.txt" "js/" "images/" "freshdesk-plugin-api.php" "freshdesk-ext.php" "css/" "../" "./")
-
- ("/Users/user/htdocs/wordpress/wp-content/plugins/freshdesk-support/js/" (21849 47778 0 0) "freshdesk_plugin_js.js" "../" "./")
-
- ("/Users/user/Freshdesk/hipchat/" (21815 60586 0 0) "tmp/" "test/" "script/" "README.md" "Rakefile" "public/" "log/" "LICENSE.txt" "Gemfile.lock" "Gemfile" "doc/" "db/" "config/" "app/" ".gitignore" ".git/" "../" "./")
-
- ("/xampp/htdocs/whmcs/" (21849 49924 0 0) "whois.php" "viewticket.php" "viewquote.php" "viewinvoice.php" "viewemail.php" "upgrade.php" "unsubscribe.php" "templates_c/" "templates/" "supporttickets.php" "submitticket.php" "status/" "serverstatus.php" "register.php" "pwreset.php" "pipe/" "networkissuesrss.php" "networkissues.php" "modules/" "logout.php" "login.php" "link.php" "lang/" "knowledgebase.php" "init.php" "index.php" "includes/" "images/" "htaccess.txt" "freshdesk_widget.php~" "freshdesk_widget.php" "feeds/" "downloads.php" "downloads/" "domainchecker.php" "dologin.php" "dl.php" "dbconnect.php" "crons/" "creditcard.php" "contact.php" "configuressl.php" "configuration.php~" "configuration.php.new" "configuration.php" "clientarea.php" "cart.php" "banned.php" "attachments/" "announcementsrss.php" "announcements.php" "affiliates.php" "aff.php" "admin/" "../" "./")
-
- ("/xampp/htdocs/" (21825 57286 0 0) "whmcs/" "../" "./")
-
- ("/xampp/" (21825 56891 0 0) "htdocs/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/src/settings/" (21833 58292 0 0) "settings.scss" "_freshdesk-variable.scss" "_default.scss" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/views/portal/" (21815 18877 0 0) "_layout.portal" "_header.portal" "_head.portal" "_footer.portal" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/app/views/layouts/helpdesk/" (21815 18877 0 0) "default.atom.erb" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/src/" (21840 33144 0 0) "widget.scss" "tour_my_app.scss" "subscription.scss" "subscription/" "sprites.scss" "sprites/" "social/" "settings/" "rtl/" "responsive_widget.scss" "reports.scss" "report_print.scss" "rating.scss" "print.scss" "print/" "preview.scss" "portal_utils.scss" "portal_print.scss" "portal/" "plugins.scss" "plugins/" "pattern/" "pages.scss" "page/" "module.scss" "module/" "ie_hacks.scss" "helpdesk-theme.scss" "google_signup.scss" "gadget.scss" "freshwidget.scss" "freshfone_settings.scss" "freshfone_recording_playback.scss" "freshfone_message_select.scss" "freshfone_ivr.scss" "freshfone_call_history.scss" "freshfone_admin.scss" "freshfone.scss" "freshfone/" "fonts/" "facebook.scss" "cti/" "community.scss" "common.scss" "chat/" "cdn/" "app/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/src/rtl/" (21840 33144 0 0) "subscription/" "sprites.scss" "social/" "print/" "portal/" "plugins.scss" "plugins/" "pattern/" "pages.scss" "page/" "module.scss" "helpdesk-theme.scss" "freshwidget.scss" "freshfone/" "cti.scss" "common.scss" "chat/" "app/" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/public/src/rtl/app/" (21815 18878 0 0) "ie.scss" "application.scss" "app-common.scss" "app-bootstrap.scss" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/public/javascripts/integrations/" (21843 23458 0 0) "zohocrm.js" "workflow_max.js" "whmcsjs.js" "surveymonkey.js" "sugarcrm.js" "shopify.js" "seoshop.js" "sample_highrise.js" "salesforce.js" "pivotal_tracker.js" "nimble.js" "mailchimp.js" "logmein.js" "infusionsoft.js~" "icontact.js" "highrise.js" "harvest.js" "google_calendar.js" "freshbooks.js" "construct_rule.js" "constantcontact.js" "campaignmonitor.js" "boxChooser.js" "box.js" "batchbook.js" "atlassian-jira.js" "#harvest.js#" "#freshbooks.js#" "../" "./")
-
- ("/Users/user/.emacs.d/elpa/auto-complete-20150322.813/" (21813 58956 0 0) "dict/" "auto-complete.elc" "auto-complete.el" "auto-complete-pkg.el" "auto-complete-config.elc" "auto-complete-config.el" "auto-complete-autoloads.el~" "auto-complete-autoloads.el" "../" "./")
-
- ("/Users/" (21814 18010 0 0) "user/" "Shared/" "admin/" ".localized" "../" "./")
-
- ("/Users/user/Freshdesk/helpkit/lib/va/" (21833 58290 0 0) "webhook/" "util.rb" "rule_handler.rb" "performer.rb" "observer/" "handlers/" "event_handlers/" "event_handler.rb" "event.rb" "constants.rb" "condition.rb" "action.rb" "../" "./")
-
- ("/Users/user/FreshDesk/helpkit/public/javascripts/cdn/" (21842 62464 0 0) "workspace.js" "widget_config.js" "visitor.js" "timesheet.js" "ticket_fields.js" "ticket_details.js" "syntaxhighlighter.js" "survey.js" "subscription.js" "soundmanager.js" "social_tab.js" "social_admin.js" "search.js" "reports.js" "report_date.js" "report_charts.js" "remote_configurations.js" "redactor.js" "profile_avatar.js" "preview.js" "portal_head.js" "portal_bottom.js" "plugins/" "plans_and_billing.js" "placeholder.js" "pattern.js" "observer_event.js" "mobihelp.js" "merge.js" "livechat_shortcodes.js" "livechat_reports.js" "livechat_mini_dashboard.js" "livechat_initializer.js" "livechat_helper.js" "livechat_collision.js" "livechat_archive.js" "livechat_admin_settings.js" "lang/" "html2canvas.js" "gettingstarted.js" "gadget.js" "freshwidget.js" "freshfonereports.js" "freshfonecallhistory.js" "freshfone_welcome_page.js" "freshfone_ticket_search.js" "freshfone_settings.js" "freshfone_portal.js" "freshfone_ivr.js" "freshfone_client.js" "freshfone.js" "frameworks.js" "five9.js" "fdwidget.js" "excanvas.js" "drishti.js" "defaults.js" "czentrix.js" "custom_widget.js" "cti_ticket_search.js" "cti_client.js" "contacts.js" "contact_templates.js" "contact_form.js" "contact_fields.js" "conditional.js" "company_fields.js" "client_logger.js" "app/" "admin_search.js" "admin.js" "admin/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

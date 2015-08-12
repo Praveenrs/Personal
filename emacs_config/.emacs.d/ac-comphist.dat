@@ -1,4 +1,6 @@
-((("/Users/user/.oh-my-zsh" .
+((("visible_in_view_form?" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("/Users/user/.oh-my-zsh" .
    [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
   ("Admin::AdminController" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])

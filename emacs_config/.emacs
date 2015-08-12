@@ -24,6 +24,9 @@
  '(case-fold-search t)
  '(column-number-mode t)
  '(current-language-environment "Latin-1")
+ '(custom-safe-themes
+   (quote
+    ("8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" default)))
  '(default-input-method "latin-1-prefix")
  '(delete-selection-mode nil)
  '(fci-rule-color "#073642")
@@ -33,13 +36,13 @@
  '(indent-tabs-mode nil)
  '(package-selected-packages
    (quote
-	(scala-mode2 enh-ruby-mode phi-search php-mode yaml-mode web-mode scss-mode rvm rspec-mode robe projectile-rails imenu-list go-mode flymake-ruby flx-ido discover color-theme ac-emmet)))
+    (flymake-cursor enh-ruby-mode git scala-mode2 ruby-mode phi-search php-mode yaml-mode web-mode scss-mode rvm rspec-mode robe projectile-rails go-mode flymake-ruby flx-ido discover color-theme ac-emmet)))
  '(paren-mode (quote paren) nil (paren))
  '(show-paren-mode t nil (paren))
  '(show-trailing-whitespace t)
  '(tab-stop-list
    (quote
-	(4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96)))
+    (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96)))
  '(tab-width 4)
  '(transient-mark-mode t)
  '(user-mail-address "shreyas.ns@freshdesk.com")
@@ -64,7 +67,7 @@
 (ac-config-default)
 (setq ac-auto-start nil)
 (ac-set-trigger-key "TAB")
-(add-to-list 'ac-modes 'enh-ruby-mode)
+(add-to-list 'ac-modes 'ruby-mode)
 (add-to-list 'ac-modes 'web-mode)
 (add-to-list 'ac-modes 'scss-mode)
 (add-hook 'robe-mode-hook 'ac-robe-setup)
@@ -120,14 +123,14 @@
 (defvar gotofunregex
   '((nil "^\\s-*\\(\\(def\\|class\\)\\s-+[-A-Za-z0-9_+]+\\)" 1)))
 
-(defun display-func-imenu ()
-  (interactive)
-  (setq imenu-generic-expression gotofunregex)
-  (setq-local imenu-create-index-function 'imenu-default-create-index-function))
+;; (defun display-func-imenu ()
+;;   (interactive)
+;;   (setq imenu-generic-expression gotofunregex)
+;;   (setq-local imenu-create-index-function 'imenu-default-create-index-function))
 
-(add-hook 'ruby-mode-hook 'display-func-imenu)
-(imenu-list-minor-mode)
-(global-set-key (kbd "M-g") 'imenu-list-show)
+;; ;(add-hook 'ruby-mode-hook 'display-func-imenu)
+;; (imenu-list-minor-mode)
+;; (global-set-key (kbd "M-g") 'imenu-list-show)
 ;;(add-hook 'imenu-list-minor-mode-hook lambda
 ;;end
 
@@ -141,3 +144,13 @@
 (global-set-key (kbd "C-s") 'phi-search)
 (global-set-key (kbd "C-r") 'phi-search-backward)
 
+
+(defun my-web-mode-hook ()
+  (setq web-mode-enable-auto-pairing nil)
+  (setq web-mode-attr-indent-offset 2)
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-indent-style 2)
+  )
+(add-hook 'web-mode-hook  'my-web-mode-hook)

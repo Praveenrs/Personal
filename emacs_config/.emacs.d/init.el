@@ -50,11 +50,11 @@
 ;;Ruby related Configs
 
 ;;Load Syntax Checker for ruby
-(autoload 'enh-ruby-mode "enh-ruby-mode" "Major mode for ruby files" t)
-(add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
-(add-to-list 'interpreter-mode-alist '("ruby" . enh-ruby-mode))
+(autoload 'ruby-mode "ruby-mode" "Major mode for ruby files" t)
+(add-to-list 'auto-mode-alist '("\\.rb$" . ruby-mode))
+(add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode))
 (require 'flymake-ruby)
-  (add-hook 'enh-ruby-mode-hook 'flymake-ruby-load)
+  (add-hook 'ruby-mode-hook 'flymake-ruby-load)
 ;;End
 
 (setq ruby-deep-indent-paren nil) ;Disable deep indentation for functions
@@ -63,10 +63,10 @@
 
 (projectile-global-mode)
 (add-hook 'ruby-mode-hook 'projectile-rails-on)
-(add-hook 'enh-ruby-mode-hook 'projectile-rails-on)
+;(add-hook 'enh-ruby-mode-hook 'projectile-rails-on)
 (add-hook 'projectile-mode-hook 'projectile-rails-on); Setting the minor mode to projectile mode when in a rails project
 (add-hook 'ruby-mode-hook 'robe-mode);activate robe mode when in rubymode
-(add-hook 'enh-ruby-mode-hook 'robe-mode)
+;(add-hook 'enh-ruby-mode-hook 'robe-mode)
 (setq projectile-enable-caching t)
 ;;Defining this again so that it excludes the files specified in the projectile file
 (defun projectile-grep (&optional arg)
@@ -115,3 +115,19 @@ to `projectile-grep-default-files'."
 ;;Indent Tabs
 (setq php-mode-coding-style `WordPress)
 ;(setq ruby-indent-tabs-mode t)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (ruby-mode yaml-mode web-mode scss-mode scala-mode2 rvm rspec-mode robe projectile-rails php-mode phi-search imenu-list go-mode git flymake-ruby flx-ido discover color-theme ac-emmet))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;;test
