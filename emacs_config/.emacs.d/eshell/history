@@ -1,0 +1,18 @@
+flymake-jslint-command
+flymake-jslint-command
+flymake-jslint-command
+flymake-jslint-command
+npm install
+upport/browserify.sh lib/*.js package.json > client.js
+support/browserify.sh lib/*.js package.json > client.js
+../support/browserify.sh lib/*.js package.json > client.js
+../support/browserify.sh lib/*.js package.json > socket.io.js
+../support/browserify.sh lib/*.js package.json > socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js
+../support/browserify.sh lib/*.js package.json > ../socket.io.js

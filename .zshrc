@@ -9,15 +9,18 @@
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
-
+source ~/.zsh_functions.zsh
 # Customize to your needs...
 ##MY CONFIG
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 #export PATH="$PATH:/usr/local/mysql-5.5.24-osx10.5-x86_64/bin"
 # MacPorts Installer addition on 2015-03-11_at_01:02:07: adding an appropriate PATH variable for use with MacPorts.
-export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
-export PATH="/Users/user/bin:$PATH"
-# export SSL_CERT_FILE=/Users/user/cacert.pm
+export PATH="/opt/local/bin:/opt/local/sbin:/usr/local/sbin:$PATH"
+export PATH="/Users/shreyas/bin:$PATH"
+
+#export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+#export SSL_CERT_FILE=/etc/openssl/cert.pem
 # export CURL_CA_BUNDLE=/Users/user/cacert.pm
 MYSQL=/usr/local/mysql/bin
 export PATH=$PATH:$MYSQL
@@ -28,8 +31,10 @@ export PATH=$PATH:$MYSQL
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 #End
-
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+export HOMEBREW_GITHUB_API_TOKEN=73784a74108df260bee4857498d5ad1ebe18746a
+#export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+export PATH="/Users/shreyas/.miniconda3/bin:$PATH"
+export WORKON_HOME=~/.python_envs
 ##END OF ALL PATHS
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -68,12 +73,11 @@ export HISTFILE=~/.zsh_history
 setopt autocd # assume "cd" when a command is a directory
 setopt clobber
 setopt histignorealldups # Substitute commands in the prompt
-#setopt sharehistory # Share the same history between all shells
+setopt sharehistory # Share the same history between all shells
 setopt promptsubst # required for git plugin
 unsetopt beep
 unsetopt hist_beep
 unsetopt list_beep
-unsetopt clobber
 unsetopt ignore_eof
 unsetopt rm_star_silent
 setopt correct
@@ -89,7 +93,7 @@ setopt pushd_silent
 setopt pushd_to_home
 unsetopt bg_nice
 unsetopt hup
-#setopt APPEND_HISTORY # adds history
+setopt APPEND_HISTORY # adds history
 setopt SHARE_HISTORY
 setopt HIST_REDUCE_BLANKS
 
@@ -181,3 +185,5 @@ down-line-or-local-history() {
     zle set-local-history 0
 }
 zle -N down-line-or-local-history
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh

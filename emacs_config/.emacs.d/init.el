@@ -1,3 +1,4 @@
+(prefer-coding-system 'utf-8)
 ;;Theme and Other stuff
 (setq inhibit-startup-screen t);; No splash scree
 (package-initialize) ;; Initializing package manager
@@ -131,3 +132,7 @@ to `projectile-grep-default-files'."
  )
 
 ;;test
+;;PYTHON-DJANGO ENV
+(require 'flycheck-pyflakes)
+(add-hook 'python-mode-hook 'flycheck-mode)
+(add-to-list 'flycheck-disabled-checkers 'python-flake8)

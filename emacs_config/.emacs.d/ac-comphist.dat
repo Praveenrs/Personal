@@ -1,4 +1,6 @@
-((("visible_in_view_form?" .
+((("consumerTag" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("visible_in_view_form?" .
    [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
   ("/Users/user/.oh-my-zsh" .
    [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
@@ -135,4 +137,6 @@
   ("revert-buffer-function" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
   ("tool-bar-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])))
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("get_issue_repo_and_id" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])))

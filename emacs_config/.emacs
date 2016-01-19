@@ -6,6 +6,7 @@
 
 ;;Shreyas's Emacs Configuration file
 
+
 ;;Imp work
 (load-file "~/.emacs.d/init.elc")
 
@@ -14,7 +15,8 @@
 (global-set-key (kbd "M-n") 'goto-line) ; Goto Line using Alt-n
 (global-set-key (kbd "C-c c") 'comment-region) ;comment region 
 (global-set-key (kbd "C-c u") 'uncomment-region) ;uncomment region 
-
+(global-set-key (kbd "C-c f n") 'flymake-goto-next-error) ;comment region
+(global-set-key (kbd "C-c f p") 'flymake-goto-prev-error) ;comment region 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -31,19 +33,24 @@
  '(delete-selection-mode nil)
  '(fci-rule-color "#073642")
  '(fill-column 80)
+; '(flymake-jslint-command "jslint")
+ '(jshint-configuration-path "~/jshintrc.json")
  '(font-lock-maximum-size 512000)
  '(global-font-lock-mode t nil (font-lock))
  '(indent-tabs-mode nil)
+ '(js-curly-indent-offset 0)
+ '(js-indent-level 2)
  '(package-selected-packages
    (quote
     (flymake-cursor enh-ruby-mode git scala-mode2 ruby-mode phi-search php-mode yaml-mode web-mode scss-mode rvm rspec-mode robe projectile-rails go-mode flymake-ruby flx-ido discover color-theme ac-emmet)))
  '(paren-mode (quote paren) nil (paren))
+ '(phi-search-case-sensitive (quote guess))
  '(show-paren-mode t nil (paren))
  '(show-trailing-whitespace t)
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96)))
- '(tab-width 4)
+ '(tab-width 2)
  '(transient-mark-mode t)
  '(user-mail-address "shreyas.ns@freshdesk.com")
  '(vc-follow-symlinks nil))
@@ -109,8 +116,8 @@
 (add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
 ;; End of web mode
 
 ;;ruby mode key bindings
@@ -154,3 +161,23 @@
   (setq web-mode-indent-style 2)
   )
 (add-hook 'web-mode-hook  'my-web-mode-hook)
+(add-hook 'js2-mode-hook 'flymake-jshint-load)
+(add-hook 'js-mode-hook 'flymake-jshint-load)
+;(setq flymake-jslint-args ())
+
+;PYTHON DJANGO SETUP
+(require 'django-html-mode)
+(require 'django-mode)
+(add-to-list 'auto-mode-alist '("\\.djhtml$" . django-html-mode))
+(add-hook 'django-mode-hook
+          (lambda ()
+            (define-key django-mode-map (kbd "M-.") 'django-jump)
+            (define-key django-mode-map (kbd "C-c d m") 'django-manage)
+            (define-key django-mode-map (kbd "C-c d q") 'django-test)
+            (define-key django-mode-map (kbd "C-c d s") 'django-syncdb)
+            (define-key django-mode-map (kbd "C-c d a") 'django-startapp)
+            (define-key django-mode-map (kbd "C-c d v") 'django-jump-to-view)
+            (define-key django-mode-map (kbd "C-c d m") 'django-jump-to-model)
+            (define-key django-mode-map (kbd "C-c d t") 'django-jump-to-template)
+            )
+          )
