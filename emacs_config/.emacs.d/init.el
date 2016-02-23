@@ -1,4 +1,5 @@
 (prefer-coding-system 'utf-8)
+(add-to-list 'auto-coding-alist '(".*" . utf-8))
 ;;Theme and Other stuff
 (setq inhibit-startup-screen t);; No splash scree
 (package-initialize) ;; Initializing package manager

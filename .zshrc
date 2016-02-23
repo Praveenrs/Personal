@@ -33,7 +33,7 @@ export PATH=$PATH:$GOPATH/bin
 #End
 export HOMEBREW_GITHUB_API_TOKEN=73784a74108df260bee4857498d5ad1ebe18746a
 #export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-export PATH="/Users/shreyas/.miniconda3/bin:$PATH"
+#export PATH="/Users/shreyas/.miniconda3/bin:$PATH"
 export WORKON_HOME=~/.python_envs
 ##END OF ALL PATHS
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
